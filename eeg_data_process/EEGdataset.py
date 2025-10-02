@@ -9,8 +9,12 @@ import pandas as pd
 
 class AllDataFeatureTwoEEG(Dataset):
     
-    def __init__(self, data_path, sub_list, train=True, time_len=250, test_mean=True, aug_data=False, point_path=''):
+    def __init__(self, data_path, sub_list, train=True, time_len=250, test_mean=True, aug_data=False, point_path='', num_classes=72):
         self.data_path = data_path
+        
+        # Charless: 10/2 新增 classes
+        self.num_classes = num_classes
+
         self.sub_list = sub_list
         self.train = train
         self.time_len = time_len
@@ -33,9 +37,17 @@ class AllDataFeatureTwoEEG(Dataset):
         name2color_label = {}
         for index, row in read_df.iterrows():
             name2color_label[row['name']] = int(row['label'])
+        
         self.name_list = np.array(self.name_list).reshape(72, -1)
+
+        # Charless 10/2 新增：篩選前 num_classes 個類別
+        if num_classes < 72:
+            print(f"[Dataset] Selecting first {num_classes} classes (indices 0-{num_classes-1})")
+            self.name_list = self.name_list[:num_classes]
+
         self.point_data = np.zeros((self.name_list.shape[0], self.name_list.shape[1], 8192, 6))
         self.color_label = np.zeros((self.name_list.shape[0], self.name_list.shape[1]))
+
         if point_path == '':
             point_path = self.data_path + 'point_cloud_simple/'
             for ii in range(0, self.name_list.shape[0]):
@@ -50,26 +62,51 @@ class AllDataFeatureTwoEEG(Dataset):
             app_ss = point_path.split('-')[-1][:-1]
             name_app_dir = {}
             for name_one in os.listdir(point_path):
+                if '-' not in name_one:
+                    continue
                 name_two = name_one.split('-')[1]
                 name_app_dir[name_two[3:]] = name_two[:3]
+            # 同時讀取 -0..-4 的 PLY 版本，作為測試時的 5 個 trials
+            K = 5
+            self.point_data_k = np.zeros((self.name_list.shape[0], self.name_list.shape[1], K, 8192, 6))
             for ii in range(0, self.name_list.shape[0]):
                 for jj in range(0, self.name_list.shape[1]):
                     true_points = np.load(self.data_path + 'point_cloud_simple/' + self.name_list[ii][jj][3:] + '.npy')
-                    ply_name = f'{point_path}{app_ss}-{name_app_dir[self.name_list[ii][jj][3:]]}{self.name_list[ii][jj][3:]}-best1.ply'
+                    base = f'{point_path}{app_ss}-{name_app_dir.get(self.name_list[ii][jj][3:], "")}'+f'{self.name_list[ii][jj][3:]}'
                     self.color_label[ii, jj] = name2color_label[self.name_list[ii][jj][3:]]
-                    point_cloud = o3d.io.read_point_cloud(ply_name)
-                    points1 = np.asarray(point_cloud.points)
-                    self.point_data[ii, jj, :, :3] = points1
-                    self.point_data[ii, jj, :, 3:] = true_points[:, 3:]
+                    found_any = False
+                    for kk in range(K):
+                        cand = f'{base}-{kk}.ply'
+                        if os.path.exists(cand):
+                            point_cloud = o3d.io.read_point_cloud(cand)
+                            pts = np.asarray(point_cloud.points)
+                            if pts.shape[0] != 8192:
+                                raise ValueError(f'PLY size != 8192: {cand} got {pts.shape}')
+                            self.point_data_k[ii, jj, kk, :, :3] = pts
+                            self.point_data_k[ii, jj, kk, :, 3:] = true_points[:, 3:]
+                            found_any = True
+                    if not found_any:
+                        raise FileNotFoundError(f'No PLY found for {base}-[0..{K-1}].ply')
         self.eeg_data, self.eeg_data2 = self.load_eeg()
-        self.cls_num = 72
+
+        # Charless 10/2 新增：篩選 EEG data
+        if num_classes < 72:
+            self.eeg_data = self.eeg_data[:, :num_classes, :, :, :, :]
+            self.eeg_data2 = self.eeg_data2[:, :num_classes, :, :, :, :]
+        
+        self.cls_num = num_classes  # 改這行
+
         if not self.train:
             if self.test_mean:
                 self.eeg_data = np.mean(self.eeg_data, axis=3, keepdims=True)
                 self.eeg_data2 = np.mean(self.eeg_data2, axis=3, keepdims=True)
-                self.obj_num, self.trails_num = 2, 1
+                ply_trials = self.point_data_k.shape[2] if hasattr(self, "point_data_k") else 1
+                self.obj_num, self.trails_num = 2, ply_trials
             else:
-                self.obj_num, self.trails_num = 2, 4
+                eeg_trials = self.eeg_data.shape[3]
+                ply_trials = self.point_data_k.shape[2] if hasattr(self, "point_data_k") else 1
+                # 若存在多個 PLY 版本，優先使用其作為 trials；否則回退到 EEG trials
+                self.obj_num, self.trails_num = 2, (ply_trials if ply_trials > 1 else eeg_trials)
         else:
             self.obj_num, self.trails_num = 8, 2
         
@@ -141,10 +178,7 @@ class AllDataFeatureTwoEEG(Dataset):
         return eeg_data_all, eeg_data_all2
     
     def __len__(self, ):
-        num = 1
-        for ii in range(len(self.eeg_data.shape) - 2):
-            num = num * self.eeg_data.shape[ii]
-        return num
+        return len(self.sub_list) * self.cls_num * self.obj_num * self.trails_num
     
     def add_noise(self, eeg_data):
         # import pdb;pdb.set_trace()
@@ -162,7 +196,10 @@ class AllDataFeatureTwoEEG(Dataset):
         if self.aug_data and np.random.rand() > 0.75:
             eeg_data = np.mean(self.eeg_data[sub_index, cls_index, obj_index, :], axis=0)
         else:
-            eeg_data = self.eeg_data[sub_index, cls_index, obj_index, obj_other]
+            if self.eeg_data.shape[3] == 1:
+                eeg_data = np.mean(self.eeg_data[sub_index, cls_index, obj_index, :], axis=0)
+            else:
+                eeg_data = self.eeg_data[sub_index, cls_index, obj_index, obj_other]
         if self.aug_data and np.random.random() > 0.4:
             eeg_data_new = self.add_noise(torch.from_numpy(eeg_data))
         else:
@@ -171,7 +208,10 @@ class AllDataFeatureTwoEEG(Dataset):
         if self.aug_data and np.random.rand() > 0.75:
             eeg_data2 = np.mean(self.eeg_data2[sub_index, cls_index, obj_index, :], axis=0)
         else:
-            eeg_data2 = self.eeg_data2[sub_index, cls_index, obj_index, obj_other]
+            if self.eeg_data2.shape[3] == 1:
+                eeg_data2 = np.mean(self.eeg_data2[sub_index, cls_index, obj_index, :], axis=0)
+            else:
+                eeg_data2 = self.eeg_data2[sub_index, cls_index, obj_index, obj_other]
         if self.aug_data and np.random.random() > 0.4:
             eeg_data2_new = self.add_noise(torch.from_numpy(eeg_data2))
         else:
@@ -179,7 +219,10 @@ class AllDataFeatureTwoEEG(Dataset):
 
         # eeg_data_new = (eeg_data_new - eeg_data_new.min()) / (eeg_data_new.max() - eeg_data_new.min()) * 2.0 - 1.0
         label = cls_index
-        point = self.point_data[cls_index, obj_index]
+        if hasattr(self, "point_data_k"):
+            point = self.point_data_k[cls_index, obj_index, obj_other]
+        else:
+            point = self.point_data[cls_index, obj_index]
         one_color_label = self.color_label[cls_index, obj_index]
         txt_fea = self.clip_features[name[3:]]['text']
         color_video_fea = self.clip_features[name[3:]]['video']
@@ -197,4 +240,5 @@ class AllDataFeatureTwoEEG(Dataset):
         #         eeg_data = eeg_data[:, rand_index * self.time_len: ((rand_index + 1) * self.time_len)]
         return {'name':name, 'eeg_data':eeg_data_new, 'eeg_data2': eeg_data2_new, 'cls_label':label, 'point_cloud':torch.from_numpy(point),
                 'txt_fea':txt_fea, 'color_video_fea':color_video_fea, 'color_point_fea':color_point_fea,
-                'gray_video_fea':gray_video_fea, 'gray_point_fea':gray_point_fea, 'color_label':one_color_label}
+                'gray_video_fea':gray_video_fea, 'gray_point_fea':gray_point_fea, 'color_label':one_color_label,
+                'ply_k': obj_other if hasattr(self, "point_data_k") else 0}

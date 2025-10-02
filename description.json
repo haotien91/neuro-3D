@@ -1,0 +1,2882 @@
+{
+    "Christmas_tree_00": {
+        "uid": "0b1b92d6d5584284b59aaab57b1009a1",
+        "description": "A 3D model of a green Christmas tree."
+    },
+    "Christmas_tree_01": {
+        "uid": "16fbadc669454c26aa0927445b3c6ffd",
+        "description": "A 3D model of a green Christmas tree."
+    },
+    "Christmas_tree_02": {
+        "uid": "3ca3558e2b594758ab50c8fff8ea0b12",
+        "description": "A low poly 3D model of a green Christmas tree."
+    },
+    "Christmas_tree_03": {
+        "uid": "64a0364ffb424438b26ac3c846ed2186",
+        "description": "Low poly 3D model of a green Christmas tree."
+    },
+    "Christmas_tree_04": {
+        "uid": "86d85d8b18bb4d668332553996ce2480",
+        "description": "3D model of a green origami Christmas tree."
+    },
+    "Christmas_tree_05": {
+        "uid": "8f4af0f494fb4a01924d53ee7c34fa35",
+        "description": "A low poly 3D model of a green polygonal Christmas tree."
+    },
+    "Christmas_tree_06": {
+        "uid": "c6c2b4cc101c4ccda903bfe33f0639fc",
+        "description": "A 3D model of a small green and orange Christmas tree."
+    },
+    "Christmas_tree_07": {
+        "uid": "e283aa7835664a74a4ad39afb26d2ef3",
+        "description": "3D model of a Christmas tree."
+    },
+    "Christmas_tree_08": {
+        "uid": "effe471c624f49cda0f1593966d1f073",
+        "description": "A 3D model of a tall pine tree."
+    },
+    "Christmas_tree_09": {
+        "uid": "fe8eef087d6646fabb24833ea6af5550",
+        "description": "A low poly 3D model of a green Christmas pine tree."
+    },
+    "airplane_00": {
+        "uid": "056cfd8c9b984719b1f96fd7829c981d",
+        "description": "3D model of a C-130, C-130J, and C-141 Starlifter airplanes flying in the sky."
+    },
+    "airplane_01": {
+        "uid": "0c0da2cc1b4c441dadc2510212c25fb7",
+        "description": "A 3D model of a large white airplane flying in the sky."
+    },
+    "airplane_02": {
+        "uid": "343d37989dc54a61a19d5d130885916f",
+        "description": "3D rendering of an Airbus A330-200 airplane flying in the sky."
+    },
+    "airplane_03": {
+        "uid": "37b041d8521c4179b3c8679e2ff8dd17",
+        "description": "3D model of a Chinese Boeing 747-400 airplane in flight."
+    },
+    "airplane_04": {
+        "uid": "3ca2f507a0a749799e16a4eee12e456c",
+        "description": "3D model of a B-52 bomber plane"
+    },
+    "airplane_05": {
+        "uid": "4e88a88d9c17457fa75e09a404dc4e71",
+        "description": "A 3D model of a small yellow and blue airplane."
+    },
+    "airplane_06": {
+        "uid": "6c3a4d70c6bd40d08bd1d2766148c0c4",
+        "description": "C-130 3D Model: A detailed, royalty-free 3D rendering of a C-130 plane in flight."
+    },
+    "airplane_07": {
+        "uid": "7cf44b40887848379112ad0c9b1baa8e",
+        "description": "A small black and white biplane."
+    },
+    "airplane_08": {
+        "uid": "924254a35e69415ca61b0791628ae095",
+        "description": "3D model of a white airplane"
+    },
+    "airplane_09": {
+        "uid": "935ec26dae3c4e848ab57640710b99dd",
+        "description": "Small pink toy airplane"
+    },
+    "apple_00": {
+        "uid": "152ca55383b2491e816f5ed5ac127677",
+        "description": "3D model of an apple."
+    },
+    "apple_01": {
+        "uid": "2ea85fec1d3744fda5e00337aabc62be",
+        "description": "3D model of a red and yellow apple."
+    },
+    "apple_02": {
+        "uid": "36c5a7d36196442fb03e61d218a4a08e",
+        "description": "A 3D model of an apple with a green leaf and stem, and a peach with a green leaf."
+    },
+    "apple_03": {
+        "uid": "4c19ae47dbe8468285ee53ff487fe51a",
+        "description": "A 3D model of a red apple with a leaf."
+    },
+    "apple_04": {
+        "uid": "4eb072b2cdbd4277b63d80b98c9261ea",
+        "description": "3D model of a green apple."
+    },
+    "apple_05": {
+        "uid": "98c7f8fb0ea049a0bbeb81628cb133fc",
+        "description": "3D model of a red apple with a leaf on it."
+    },
+    "apple_06": {
+        "uid": "b62dfc66750a49a99119a0b821ab7aa0",
+        "description": "Green Apple 3D Model"
+    },
+    "apple_07": {
+        "uid": "da0cfd4c6a4e41c5aaf06797b463235b",
+        "description": "3D model of an apple"
+    },
+    "apple_08": {
+        "uid": "e3173857f9384aa4928daeabff75da44",
+        "description": "3D model of a red apple with a green leaf."
+    },
+    "apple_09": {
+        "uid": "f50b83b0709b4b64a77e3465c982605a",
+        "description": "A 3D model of a pink and yellow apple."
+    },
+    "army_tank_00": {
+        "uid": "295d60432e3e4e269412002f4c316f9b",
+        "description": "A 3D pixelated tank model with red wheels and rim."
+    },
+    "army_tank_01": {
+        "uid": "3e575430bac047c6a5f064bca40b5065",
+        "description": "Yellow and blue toy tank with green wheels."
+    },
+    "army_tank_02": {
+        "uid": "5f491ea8b1ee4481be53ad63d402a7ca",
+        "description": "3D model of a tank with a stripe and purple-black design."
+    },
+    "army_tank_03": {
+        "uid": "66a3ec7fc15241bfac20c5c55baca66d",
+        "description": "3D model of a white tank."
+    },
+    "army_tank_04": {
+        "uid": "79b7e866211948c6b62bd603f14e55b0",
+        "description": "Green pixelated Minecraft tank 3D model."
+    },
+    "army_tank_05": {
+        "uid": "8a44869c542347fd8616463c74e0bb59",
+        "description": "Green 3D model toy tank with wheels"
+    },
+    "army_tank_06": {
+        "uid": "bd48b016c2fa453b9505b3e5ad7e42e0",
+        "description": "Green 3D tank model"
+    },
+    "army_tank_07": {
+        "uid": "ccba4426eeb34603a1de87c1ffcdd878",
+        "description": "Green 3D tank model, possibly a toy or Lego."
+    },
+    "army_tank_08": {
+        "uid": "d209acb0152d476aa7c1667c1b6a98b4",
+        "description": "Green 3D tank model"
+    },
+    "army_tank_09": {
+        "uid": "e2c01aea6c3d439dbbc57be1f059b424",
+        "description": "A 3D model of a brick/block tank in Minecraft."
+    },
+    "banana_00": {
+        "uid": "1787fb8e12f14318899702ae6c502de5",
+        "description": "Banana 3D model - royalty-free 3D model for various modeling and animation software."
+    },
+    "banana_01": {
+        "uid": "1e23afcaf076420786d8078b479b0424",
+        "description": "A banana."
+    },
+    "banana_02": {
+        "uid": "3a109ddd80bf4c479b5030c87e3e1707",
+        "description": "3D model of bananas compatible with various software like 3ds Max, Maya, Blender, and more."
+    },
+    "banana_03": {
+        "uid": "3d5197b499ff47308fcdddba8650fffb",
+        "description": "Yellow banana"
+    },
+    "banana_04": {
+        "uid": "54a13e432b9a488ab35d1c6644d9bc0c",
+        "description": "A banana."
+    },
+    "banana_05": {
+        "uid": "5d99827c456940bf9055dfe2dbc561e8",
+        "description": "3D banana model - royalty free."
+    },
+    "banana_06": {
+        "uid": "5e68fc39623b4773a53a6d084782a6df",
+        "description": "3D banana model for 3ds Max, OBJ, FBX, and C4D."
+    },
+    "banana_07": {
+        "uid": "77c6c8ce9199433d8f81cd77f99ba978",
+        "description": "3D banana model - royalty free"
+    },
+    "banana_08": {
+        "uid": "7e3b35368929485d89df5fe9071afd06",
+        "description": "3D banana model"
+    },
+    "banana_09": {
+        "uid": "dda3a1f707a94c52bed79578e120937c",
+        "description": "Banana"
+    },
+    "basket_00": {
+        "uid": "0cd51caee3e14b2d92efaef53c7c0196",
+        "description": "Wicker basket with handles, 3D model."
+    },
+    "basket_01": {
+        "uid": "1b54d0a314954aadad40333cf80c2d28",
+        "description": "3D model of a wicker basket with a handle."
+    },
+    "basket_02": {
+        "uid": "2a43e6e50fdf4d8aac6bccd9e4ba629d",
+        "description": "A small wicker basket with handles."
+    },
+    "basket_03": {
+        "uid": "2cd59181404c4aaa995a0ea55f89e212",
+        "description": "A large rattan basket with handles."
+    },
+    "basket_04": {
+        "uid": "570bc55394744fe481863431259da3fe",
+        "description": "Wicker basket with handles (3D model)"
+    },
+    "basket_05": {
+        "uid": "5a6b924ca99648ad84390da1498cae5d",
+        "description": "3D model of a wicker basket with handles"
+    },
+    "basket_06": {
+        "uid": "86db39b403424e44b9a76b43e60131bc",
+        "description": "White wicker basket with handles"
+    },
+    "basket_07": {
+        "uid": "a548ec65b43844fb90f570ba132a0391",
+        "description": "A small wicker basket with wooden handles."
+    },
+    "basket_08": {
+        "uid": "cabd5910411b497a9698931246faa95a",
+        "description": "A round wicker basket with a lid and handles."
+    },
+    "basket_09": {
+        "uid": "dc3d8c07769e4226833cbd01a2936939",
+        "description": "A large 3D rattan woven basket."
+    },
+    "bathtub_00": {
+        "uid": "0849e24b30184cd78220783b8c185a8f",
+        "description": "A 3D model of a green bathtub."
+    },
+    "bathtub_01": {
+        "uid": "385c09d2ebb2483d96a78918c665db51",
+        "description": "3D model of a white bathtub and wall-mounted toilet with a wall light."
+    },
+    "bathtub_02": {
+        "uid": "536dbfc2fdbe4dec9203ab390b9a6eda",
+        "description": "3D model of a Victorian clawfoot bathtub in pink with gold legs and handle."
+    },
+    "bathtub_03": {
+        "uid": "6441ba6422b74be0ba70003107ecacd7",
+        "description": "3D rendering of a white bathtub and rectangular light fixture."
+    },
+    "bathtub_04": {
+        "uid": "674b6c07743e4f569d4b745949d1a0f1",
+        "description": "3D model of a white bathtub."
+    },
+    "bathtub_05": {
+        "uid": "75f663417e874f24b864348a5c9c3e68",
+        "description": "White bathroom sink with a light, 3D model of a white plastic container."
+    },
+    "bathtub_06": {
+        "uid": "804fa46335874949938b6dfb55d17820",
+        "description": "White bathtub with gold legs and two faucets."
+    },
+    "bathtub_07": {
+        "uid": "cf373495a56049f6be1692ca6463aa2a",
+        "description": "A 3D rendering of a white rectangular bathtub with a faucet."
+    },
+    "bathtub_08": {
+        "uid": "dcd691724f6b4d29a6d16def24d14e6e",
+        "description": "White bathtub and curved wall light in a 3D rendering."
+    },
+    "bathtub_09": {
+        "uid": "f1b05ddf1b634481903e353d41b6a654",
+        "description": "A 3D rendering of a green and white marble bathtub with a modern black and white marble ceiling light."
+    },
+    "bed_00": {
+        "uid": "0972c48a7e4548bca80975a47a823bab",
+        "description": "3D rendering of a wooden bunk bed with drawers, featuring a blue and green comforter and a trundle."
+    },
+    "bed_01": {
+        "uid": "0cb0a6704c8a4fbd967039998a9d76ac",
+        "description": "A 3D rendering of a neutral-colored bed with a white headboard, white pillows, and a wooden frame."
+    },
+    "bed_02": {
+        "uid": "2c23a943c53048a3a7991d68ed3cf069",
+        "description": "White bed frame with a mattress in a 3D model."
+    },
+    "bed_03": {
+        "uid": "5d3a99865ac84d8a8bf06b263aa5bb55",
+        "description": "A 3D model of a metal-framed bed with green sheets and a blanket."
+    },
+    "bed_04": {
+        "uid": "6eb4212e70b941a3bd2db196a47828b9",
+        "description": "A 3D rendering of a bed with a wooden frame and white sheets."
+    },
+    "bed_05": {
+        "uid": "9eefcf9a6fed458990b59f63a2870d9e",
+        "description": "A 3D model of a bed featuring a blue and red cover, blue and red pillows, and a blue mattress, accompanied by a table with two legs."
+    },
+    "bed_06": {
+        "uid": "a12d3ae76e3944428f14e5b15d4f0efd",
+        "description": "A 3D rendering of a wooden bed frame with a mattress."
+    },
+    "bed_07": {
+        "uid": "b547d81073b64d3e97200fd3ae9a74af",
+        "description": "3D rendering of a wooden bed with white sheets, pillow, and mattress, featuring wooden slats."
+    },
+    "bed_08": {
+        "uid": "d92ab9476b6c4223b9e942954aa58835",
+        "description": "3D rendering of a wooden-framed bed with a green comforter and white sheets."
+    },
+    "bed_09": {
+        "uid": "dc3024aa5e234f4299641f072558b9a8",
+        "description": "A 3D model of a wooden bed with a plaid blanket, pillows, and railing."
+    },
+    "bench_00": {
+        "uid": "3f06dbb8db4347b8a6ffed1161689eb7",
+        "description": "A 3D model of a wooden bench with a green handle and shelf."
+    },
+    "bench_01": {
+        "uid": "4d41e9adc6b444a383b7990b9ed6c708",
+        "description": "A 3D model of a white and brown wooden bench with two slats."
+    },
+    "bench_02": {
+        "uid": "91e9a8aea88f42e6b8fd6505dec761c4",
+        "description": "3D model of a wooden bench"
+    },
+    "bench_03": {
+        "uid": "a606688f1ef74049b6a23d759721db63",
+        "description": "A 3D rendering of a wooden bench with striped slats."
+    },
+    "bench_04": {
+        "uid": "b2e3c75ff4dd41d6828bcf2d6354388d",
+        "description": "A 3D rendering of a white bench."
+    },
+    "bench_05": {
+        "uid": "be38157bd0b2440983c2da950bc63bf8",
+        "description": "A 3D rendering and model of a wooden bench."
+    },
+    "bench_06": {
+        "uid": "c28e45e78c9e4c1fb423605cffc6c088",
+        "description": "3D rendering of a wooden bench on a concrete base."
+    },
+    "bench_07": {
+        "uid": "d0d490b69fea45cc93151a4b83e055ad",
+        "description": "3D rendering of a wooden park bench with a metal frame."
+    },
+    "bench_08": {
+        "uid": "dd5f87e5b8644111b8180515eed4c54e",
+        "description": "3D model of a wrought iron bench with a wooden seat."
+    },
+    "bench_09": {
+        "uid": "e59b9d14b7dd4407a94b0ef2baefd19e",
+        "description": "3D model of a pink and white bench with two shelves."
+    },
+    "birdhouse_00": {
+        "uid": "0a419df57f944cb890e5e1c781e2708d",
+        "description": "3D model of a small yellow log cabin with a black roof."
+    },
+    "birdhouse_01": {
+        "uid": "45d0891706b3432bb8815658a94542bc",
+        "description": "A 3D model of a small house with a brown roof."
+    },
+    "birdhouse_02": {
+        "uid": "4c02a1bd51af4d5ca992a2a45b04eb70",
+        "description": "3D model of a small wooden house"
+    },
+    "birdhouse_03": {
+        "uid": "7ad5dfd080b14505b5caf38f102c32ee",
+        "description": "A 3D model of a small wooden house with a red roof and chimney."
+    },
+    "birdhouse_04": {
+        "uid": "83c5216f54a54b0fa0ee29e86a8c66e8",
+        "description": "A 3D model of a small wooden dog house with a metal roof, door, and shed-like design."
+    },
+    "birdhouse_05": {
+        "uid": "bcd19697785544c99f54f2e71d1cb557",
+        "description": "A 3D model of a small white house with a triangular roof."
+    },
+    "birdhouse_06": {
+        "uid": "c5795386c04747a1841c6a7a77c7904e",
+        "description": "A small tree house with a door and windows on a tree stump with green leaves."
+    },
+    "birdhouse_07": {
+        "uid": "ca109de3e8dc4249843ecc2ced8436d3",
+        "description": "3D model of a small wooden house with a tiled roof and a window."
+    },
+    "birdhouse_08": {
+        "uid": "d5f371b2d9c94e40960f53da88532f27",
+        "description": "3D model of a wooden cuckoo clock with bells."
+    },
+    "birdhouse_09": {
+        "uid": "e86de1f3f4e14bdeb2535cc476dfb1d7",
+        "description": "A small wooden house with a roof, door, and wooden roof, possibly a birdhouse."
+    },
+    "bottle_00": {
+        "uid": "1c2a9a7e360b4d2892654f3f8998ef85",
+        "description": "3D model of a white Coca-Cola plastic bottle"
+    },
+    "bottle_01": {
+        "uid": "2f6f4c5799c84ce1b05f6de2e04d5a21",
+        "description": "A 3D model of a green water bottle."
+    },
+    "bottle_02": {
+        "uid": "39b092718d1b4068abba42ea00cee691",
+        "description": "A 3D model of a white and grey striped vase/bottle with a striped pattern."
+    },
+    "bottle_03": {
+        "uid": "40f7bac9be754b928f24c52d9f6b340e",
+        "description": "A rusty blue plastic water bottle with a lid."
+    },
+    "bottle_04": {
+        "uid": "682695ed62224411a58cd4ce76025a89",
+        "description": "Blue bottle with a white label, ice, and water droplets."
+    },
+    "bottle_05": {
+        "uid": "6eef299b1aac4ff29f238abca0f7cff3",
+        "description": "A 3D model of a pink and white bottle-shaped syringe."
+    },
+    "bottle_06": {
+        "uid": "9337ea6cf4e942359f290c69c77e132d",
+        "description": "A 3D blue plastic bottle with a white cap, possibly containing liquid soap."
+    },
+    "bottle_07": {
+        "uid": "b314794073c44ede838cf61627b5a3b7",
+        "description": "A clear glass bottle with a cork and wooden lid."
+    },
+    "bottle_08": {
+        "uid": "c1b28950a23846aeb02a3e2cfbf590eb",
+        "description": "A 3D model of a bottle with a beige cap and gold accents."
+    },
+    "bottle_09": {
+        "uid": "ef94916c83e441d483e6e3b9647d274b",
+        "description": "A 3D model of a green bottle with a white lid."
+    },
+    "cabinet_00": {
+        "uid": "1bf163160fa34a2bac8c9c6218675478",
+        "description": "A 3D wooden cabinet with gold trim, shelves, drawers, and a gold frame, functioning as a TV stand and hanging shelf."
+    },
+    "cabinet_01": {
+        "uid": "2554c38364d0432dba69bf721fb14e5e",
+        "description": "3D rendering of a wooden cabinet with marble top and drawers."
+    },
+    "cabinet_02": {
+        "uid": "4b1eeac388e641b9a6b975c32cf41439",
+        "description": "3D model of a small wooden cabinet with a door and multiple drawers."
+    },
+    "cabinet_03": {
+        "uid": "64edd65e1ec7492ebb7c1a8b0cb1f5eb",
+        "description": "A 3D model of a wooden bookcase with gold trim and shelves."
+    },
+    "cabinet_04": {
+        "uid": "79dab0ecc4dc49d9b41d86c62871c5ca",
+        "description": "A 3D model of a wooden bookcase and cabinet with drawers and shelves."
+    },
+    "cabinet_05": {
+        "uid": "9e194868da754d55afc876127dc8f74b",
+        "description": "A 3D model of a wooden cabinet with glass doors and drawers."
+    },
+    "cabinet_06": {
+        "uid": "b1a6eed00f1246d9b8f8f08003c59362",
+        "description": "A 3D model of a tall wooden bookcase with books, drawers, and a door."
+    },
+    "cabinet_07": {
+        "uid": "c20c815f51f24e2e8b7a3213c1b73051",
+        "description": "A 3D rendering of a white fireplace, white kitchen cabinets, and a small white box."
+    },
+    "cabinet_08": {
+        "uid": "e78653b4e7b34e4dbadfd07d09a56694",
+        "description": "A 3D rendering of a small wooden cabinet with drawers and a black door."
+    },
+    "cabinet_09": {
+        "uid": "edefacdeb3914bc0839bb11050aef305",
+        "description": "A 3D rendering of a wooden cabinet with shelves, drawers, and two doors."
+    },
+    "camera_00": {
+        "uid": "3db1f4b37cf24982a353e52bb330f534",
+        "description": "3D model of a vintage camera"
+    },
+    "camera_01": {
+        "uid": "46de6f5c28cf45d1bcfc2f634f921b5f",
+        "description": "3D model of a Leica M3 digital camera."
+    },
+    "camera_02": {
+        "uid": "48ea397d2cd64bc4a39f4aa98acd29a7",
+        "description": "3D model of a grey and white Nikon D40 camera with a lens."
+    },
+    "camera_03": {
+        "uid": "4b3a4cffbbe4499b9e69eaf3157abf06",
+        "description": "A 3D model of a small, silver, old camera."
+    },
+    "camera_04": {
+        "uid": "5800b532c1fe444f92f9d53172b72c28",
+        "description": "3D model of night vision goggles with a strap, resembling military headgear and binoculars."
+    },
+    "camera_05": {
+        "uid": "6a88d4caa17641b48534216759b204ee",
+        "description": "A 3D model of a camera with a leather strap and a brown cooler bag with a picture on it."
+    },
+    "camera_06": {
+        "uid": "81b3eaf9958b444781323c733255db0e",
+        "description": "3D model of a camera with buttons on the side."
+    },
+    "camera_07": {
+        "uid": "8ab20ab8b3e549fc97e48923c7f287be",
+        "description": "Nikon D50 3D model: a small black camera"
+    },
+    "camera_08": {
+        "uid": "9aa8d6f4d32a4d61876408a27ea4acea",
+        "description": "3D model of a vintage camera"
+    },
+    "camera_09": {
+        "uid": "e1eeab2a570d4c2eb22d917ea9806d4a",
+        "description": "A 3D model of a white camera and its accessories."
+    },
+    "can_00": {
+        "uid": "38baa418ff3e4f42b5b71c82388560e6",
+        "description": "3D model of a red and black Coca-Cola can."
+    },
+    "can_01": {
+        "uid": "566323fb276f4fa7ac2943b38bb4e98d",
+        "description": "3D model of an open tin can with beans and a spoon inside."
+    },
+    "can_02": {
+        "uid": "61f67a262a8c4a22bcb2e9059636b6d6",
+        "description": "A 3D model of a Dice Cola can with nutrition facts, resembling orange soda and beer cans."
+    },
+    "can_03": {
+        "uid": "8d1c092f61ac4e239d2010688e170085",
+        "description": "Two white soda cans."
+    },
+    "can_04": {
+        "uid": "90c9c4191de04730a38f3d1cb44cb92f",
+        "description": "A 3D model of a teal, lidded wine glass with the word \"Zara\" on it."
+    },
+    "can_05": {
+        "uid": "ae574613e0b1473682ba99a3270f5e82",
+        "description": "Two black metal tin cans with lids."
+    },
+    "can_06": {
+        "uid": "b521c9a1162d45d2b4f138206e114fd2",
+        "description": "A pink soda can with water droplets."
+    },
+    "can_07": {
+        "uid": "c3b08e6c355544808c8f34de3a4bfe35",
+        "description": "3D model of a white soda can"
+    },
+    "can_08": {
+        "uid": "da15a3e6a414448681db96743f522ae6",
+        "description": "White plastic jar with a lid, 3D model."
+    },
+    "can_09": {
+        "uid": "f7562dd4f11f4cbaa2cac58c38a85e1c",
+        "description": "3D model of a beige tin can with a metal lid."
+    },
+    "cat_00": {
+        "uid": "4a6230ecf8c64cb2b503123a254124bb",
+        "description": "A 3D rendered image of a striped cat."
+    },
+    "cat_01": {
+        "uid": "6c15637958824fe881b6c69987849673",
+        "description": "3D model of a yellow cat with green eyes."
+    },
+    "cat_02": {
+        "uid": "7239efeec7104dc3af46a8842a66aec0",
+        "description": "3D model of a black cat with green eyes."
+    },
+    "cat_03": {
+        "uid": "93eefe10f4f648a099e0fff7954c56b5",
+        "description": "3D rendered model of a cat in various poses."
+    },
+    "cat_04": {
+        "uid": "9ac757f47e8f42e8a7cc82a9cfe8753b",
+        "description": "3D rendered model of a sitting cat."
+    },
+    "cat_05": {
+        "uid": "a83e6be0775c4ed2ae7ee24fd53f49cd",
+        "description": "A 3D model of a golden plane or origami bird flying in the air."
+    },
+    "cat_06": {
+        "uid": "b8a85ace01444026a6218358fb590177",
+        "description": "A 3D model of a black cat walking."
+    },
+    "cat_07": {
+        "uid": "dfb4fd38aed142f9a547dfc9bdcb599f",
+        "description": "Siamese cat figurine with blue eyes."
+    },
+    "cat_08": {
+        "uid": "f1424b5007664700b4f8b7d7f22abad8",
+        "description": "A 3D model of a sitting cat."
+    },
+    "cat_09": {
+        "uid": "fc89fe933afe448084682263a5d0f10e",
+        "description": "3D rendering of a cat in motion"
+    },
+    "chair_00": {
+        "uid": "304253851afd493d958fc8e256c189df",
+        "description": "Wooden chair with a seat, backrest, and 3D model."
+    },
+    "chair_01": {
+        "uid": "3df6e89550b747a79458f197889607ce",
+        "description": "A 3D model of a blue chair with holes and legs."
+    },
+    "chair_02": {
+        "uid": "63f071b5c74341fcb4106c8975725f12",
+        "description": "A 3D model of a blue child's chair."
+    },
+    "chair_03": {
+        "uid": "99fc178ecc0943ae81454a3735e2eb5f",
+        "description": "3D rendering of a white wooden chair."
+    },
+    "chair_04": {
+        "uid": "9a07e1a9a4bb4d268926a8111bda8c26",
+        "description": "A green plastic chair with holes and a white base."
+    },
+    "chair_05": {
+        "uid": "a42dd5963b3c4d71811a19c51df647c7",
+        "description": "A 3D model of a purple chair."
+    },
+    "chair_06": {
+        "uid": "ad0b974411d94ec2bd2bd62b701018bc",
+        "description": "A 3D model of a small pink chair with a curved back and legs."
+    },
+    "chair_07": {
+        "uid": "c5f49f97856c461a8192fb950ce23540",
+        "description": "A 3D model of a Victorian wooden chair."
+    },
+    "chair_08": {
+        "uid": "d9a81a38147440c8a2ac92a26d62d895",
+        "description": "A 3D model of a purple chair with a white base."
+    },
+    "chair_09": {
+        "uid": "fab9443d48e24fbfa309187df78d58e6",
+        "description": "A 3D model of a yellow plastic chair with two legs and arms."
+    },
+    "computer_keyboard_00": {
+        "uid": "1509b394dcfa4451ba7ebdaf7fc7a808",
+        "description": "3D model of a gray computer keyboard."
+    },
+    "computer_keyboard_01": {
+        "uid": "5c55a08f18954902932b17c83b9c1418",
+        "description": "3D model of a black computer keyboard with an attached mouse and TV antenna."
+    },
+    "computer_keyboard_02": {
+        "uid": "7474b28305914cb984443b4a822db768",
+        "description": "3D model of a metal shelf with a keyboard tray and computer keyboard."
+    },
+    "computer_keyboard_03": {
+        "uid": "82f4e31f472b4405b956b29abeeb7074",
+        "description": "3D model of a keyboard with blue and white keys."
+    },
+    "computer_keyboard_04": {
+        "uid": "8537a184f2d441aebd214689c0cd918a",
+        "description": "White 3D keyboard model"
+    },
+    "computer_keyboard_05": {
+        "uid": "99de8bd7fb8d40c39989ddac0f98214a",
+        "description": "Black keyboard 3D rendering"
+    },
+    "computer_keyboard_06": {
+        "uid": "b54b7a96ae04487081662e4ff5383956",
+        "description": "A 3D model of a white keyboard."
+    },
+    "computer_keyboard_07": {
+        "uid": "b9542cec56394930be21b61f1df030dd",
+        "description": "3D model of an orange and grey keyboard with an orange stripe."
+    },
+    "computer_keyboard_08": {
+        "uid": "c04e4fcece8d48ce903e2b44210dbe17",
+        "description": "3D model of a keyboard on a shelf."
+    },
+    "computer_keyboard_09": {
+        "uid": "cbf26a0df9c14729bcc82017675a43e3",
+        "description": "3D model of a keyboard"
+    },
+    "cone_00": {
+        "uid": "0c22c62d84304528a7afed0ac9e81f1d",
+        "description": "Yellow and white 3D traffic cone model."
+    },
+    "cone_01": {
+        "uid": "362cbe01dc734766927b2f4b50547a58",
+        "description": "An orange and white 3D traffic cone."
+    },
+    "cone_02": {
+        "uid": "37d8fc88f56b48c0b3707b87cb1db5b5",
+        "description": "3D model of an orange and white traffic cone."
+    },
+    "cone_03": {
+        "uid": "584a486f880144f6a0485b5863fed885",
+        "description": "Yellow and white 3D traffic cone model"
+    },
+    "cone_04": {
+        "uid": "61a7ee4d5cfe4c62bc568a30e8c74b8c",
+        "description": "A 3D model of a traffic cone."
+    },
+    "cone_05": {
+        "uid": "6f4d6343a1bd466e9472340e967a0a06",
+        "description": "3D model of a traffic cone."
+    },
+    "cone_06": {
+        "uid": "9507e87b71fe4092a8531e146c503f85",
+        "description": "3D model of an orange traffic cone."
+    },
+    "cone_07": {
+        "uid": "a37e20eb85564e9ba21d0569198b20c8",
+        "description": "3D model of a rusty traffic cone made of clay."
+    },
+    "cone_08": {
+        "uid": "e574e90cfb6d4e6d95df3083b40a7911",
+        "description": "Yellow traffic cone-shaped object"
+    },
+    "cone_09": {
+        "uid": "f1b23bd1614644dfb748b8de37bd07d6",
+        "description": "Yellow and white 3D traffic cone."
+    },
+    "control_00": {
+        "uid": "242c7a67a7c94aba8cb6ae639001803d",
+        "description": "White Xbox 360 Controller 3D Model"
+    },
+    "control_01": {
+        "uid": "4084ab4424d54411a3ecae635395c5fc",
+        "description": "Purple and black Xbox One controller with gold accents."
+    },
+    "control_02": {
+        "uid": "5e48bf9bf16745969a58c3a36f8b1c55",
+        "description": "3D model of a PS4 controller"
+    },
+    "control_03": {
+        "uid": "698bfa9aa58f419c8297b93d3d454554",
+        "description": "White and purple SNES controller with cord, resembling a Nintendo Wii remote 3D model."
+    },
+    "control_04": {
+        "uid": "7c2da5fbe14748f19ce893d4de560989",
+        "description": "White PS4 Controller 3D Model"
+    },
+    "control_05": {
+        "uid": "9418613f6fc54d57997f78eaf4ef1f81",
+        "description": "3D model of a gray Xbox 360 controller"
+    },
+    "control_06": {
+        "uid": "9afbfb47db7f4ccf8696c5587f01af7c",
+        "description": "3D model of an Xbox One controller with grip."
+    },
+    "control_07": {
+        "uid": "a7dc44d6760549e0b26677b2a587457a",
+        "description": "Yellow Xbox controller with red buttons."
+    },
+    "control_08": {
+        "uid": "f0b4a0131f784059b0b339d2911478f3",
+        "description": "3D model of a white and black PlayStation 4 controller."
+    },
+    "control_09": {
+        "uid": "f8010cb1eba1423593cdf9eea2fed00a",
+        "description": "White PS4 Controller 3D Model"
+    },
+    "earphone_00": {
+        "uid": "1ccbf4317dad40458ae84f2224eafa72",
+        "description": "A 3D model of gaming headphones with pink and black accents and a microphone."
+    },
+    "earphone_01": {
+        "uid": "319fe609a7044bae88ba343bec58a4d9",
+        "description": "A 3D model of a pair of headphones with the letter G."
+    },
+    "earphone_02": {
+        "uid": "390d8ae3754b4a0da35c85cc33e20104",
+        "description": "Black and white headphones"
+    },
+    "earphone_03": {
+        "uid": "3aae0c7c77c24b4b99c63f05be02d808",
+        "description": "3D model of a rabbit wearing bunny ear headphones."
+    },
+    "earphone_04": {
+        "uid": "4e4eb016da0e4b458d8ecbe57048243b",
+        "description": "3D model of a red and green pair of headphones."
+    },
+    "earphone_05": {
+        "uid": "5bca4779ad2146c78fd2d988b055509e",
+        "description": "3D model of red and black headphones, royalty-free."
+    },
+    "earphone_06": {
+        "uid": "62d01cabbc3c43d2ae987925f283c992",
+        "description": "A 3D model of a pair of headphones with gold, red, pink, and black accents, and a wooden finish."
+    },
+    "earphone_07": {
+        "uid": "6751ae324fd44195903cb0558580837c",
+        "description": "Green Razer headset 3D model"
+    },
+    "earphone_08": {
+        "uid": "952a1373fdcd47aa9d4b2ba6f4abf42d",
+        "description": "A pair of red and black headphones with the word \"pro\" on them."
+    },
+    "earphone_09": {
+        "uid": "9da061dbf64e4a5a8cc6f538a84a373e",
+        "description": "3D model of a pair of headphones."
+    },
+    "elephant_00": {
+        "uid": "1acfbcf607d343c694006fa4b158c5e8",
+        "description": "3D model of a white origami elephant with tusks."
+    },
+    "elephant_01": {
+        "uid": "414e34d317264e81924dcdfdaa955596",
+        "description": "A low poly elephant with tusks."
+    },
+    "elephant_02": {
+        "uid": "4f6f2f70b0f744019d3ed2ffb837e382",
+        "description": "White elephant sculpture on a skateboard."
+    },
+    "elephant_03": {
+        "uid": "64bced0aa85b4723bc398ea579b21350",
+        "description": "A 3D model of a small elephant with tusks."
+    },
+    "elephant_04": {
+        "uid": "6eb0b6ef28e94f5bad9e4ac795c1d85d",
+        "description": "3D model of a tusked elephant."
+    },
+    "elephant_05": {
+        "uid": "76b7b9ca4d2a46d696a4ca257f722fa3",
+        "description": "3D model of a baby elephant in motion"
+    },
+    "elephant_06": {
+        "uid": "869232e678ba4f2e89feb9f6d334a663",
+        "description": "A low poly 3D model of an elephant with pink tusks."
+    },
+    "elephant_07": {
+        "uid": "ac0eaf563bd2405e93a152554211294e",
+        "description": "Blue toy elephant 3D model"
+    },
+    "elephant_08": {
+        "uid": "cc7dd2fd60b54d089cb59e98fd9ea0c9",
+        "description": "A 3D model of a small elephant with tusks."
+    },
+    "elephant_09": {
+        "uid": "d9a1361bb7324e678ca21169533093d1",
+        "description": "Low poly 3D elephant model"
+    },
+    "fire_extinguisher_00": {
+        "uid": "2c805951fd4942bdba0cbec78fae2fd5",
+        "description": "Red metal fire extinguisher."
+    },
+    "fire_extinguisher_01": {
+        "uid": "3665a2b8c42b4d8fb4512a62d80893a8",
+        "description": "3D model of a red fire extinguisher in a holder."
+    },
+    "fire_extinguisher_02": {
+        "uid": "3bb4f120d0df42fcba3dc4f550aaa9e5",
+        "description": "Red fire extinguisher."
+    },
+    "fire_extinguisher_03": {
+        "uid": "3fb280d6294a4a32a16249f4a1a62f7d",
+        "description": "Red fire extinguisher with \"fire fighters\" text on a gas cylinder."
+    },
+    "fire_extinguisher_04": {
+        "uid": "5288f12eb87f4826a73ebedb60a1c82d",
+        "description": "Red fire extinguisher 3D model."
+    },
+    "fire_extinguisher_05": {
+        "uid": "585e3a518b434183a4c1f799d9f0038e",
+        "description": "Red fire extinguisher."
+    },
+    "fire_extinguisher_06": {
+        "uid": "87feb5db6f284c60b42270803d34d85b",
+        "description": "Red fire extinguisher 3D model."
+    },
+    "fire_extinguisher_07": {
+        "uid": "94d1e3f9ee6148189cc968afd43d61fe",
+        "description": "Red Fire Extinguisher 3D Model"
+    },
+    "fire_extinguisher_08": {
+        "uid": "a390303a1e8e49afa629aa047d6493b1",
+        "description": "Red fire extinguisher with a knife in it."
+    },
+    "fire_extinguisher_09": {
+        "uid": "a857f59bacc247728ad6d5ea1c3be736",
+        "description": "Red fire extinguisher 3D model."
+    },
+    "fireplug_00": {
+        "uid": "0b0a1a9146214d09b6840773c1da173b",
+        "description": "3D model of a red fire hydrant."
+    },
+    "fireplug_01": {
+        "uid": "3bd786986e974eab9f90cb3f09e2834d",
+        "description": "3D model of a red fire hydrant."
+    },
+    "fireplug_02": {
+        "uid": "3c6b9e478ddd454cae78b598a70bcaff",
+        "description": "Red Fire Hydrant 3D Model"
+    },
+    "fireplug_03": {
+        "uid": "476c6852a9cf4465bd6f125069d8a38b",
+        "description": "Red Fire Hydrant 3D Model"
+    },
+    "fireplug_04": {
+        "uid": "59224cc0351b4ae39ce2c580f9a01463",
+        "description": "3D model of a rusted yellow fire hydrant with a hole in the pipe."
+    },
+    "fireplug_05": {
+        "uid": "65556213cae14c27ac952ac14fa4eac1",
+        "description": "Red fire hydrant with a red cap."
+    },
+    "fireplug_06": {
+        "uid": "858fd2535a9b4f4ebd69da6f958d0b21",
+        "description": "3D model of a fire hydrant"
+    },
+    "fireplug_07": {
+        "uid": "a3cf6b9b70a042fa85474c5a5f025e6e",
+        "description": "Red Fire Hydrant 3D Model"
+    },
+    "fireplug_08": {
+        "uid": "c58368b5f05849ed935ab5819b87b187",
+        "description": "Red Fire Hydrant 3D Model"
+    },
+    "fireplug_09": {
+        "uid": "d21894ed7af24cf2aef2752ad5026dd1",
+        "description": "Red fire hydrant."
+    },
+    "fish_00": {
+        "uid": "106ba78bd936462b96fe8bcdcf95e545",
+        "description": "3D model of a small white/silver fish"
+    },
+    "fish_01": {
+        "uid": "3440371ac8ca4a9d821c649d7bffbd54",
+        "description": "A 3D model of a blue and yellow fish."
+    },
+    "fish_02": {
+        "uid": "403e8cc91fcc414bb39363904f6d080d",
+        "description": "A small 3D pink and yellow striped fish."
+    },
+    "fish_03": {
+        "uid": "4e719b26038f4011a59f4b901c10596f",
+        "description": "3D model of a blue and yellow fish with yellow fins."
+    },
+    "fish_04": {
+        "uid": "665ab73155a44d91908519d84e5fd002",
+        "description": "A 3D golden origami bird-arrow hybrid."
+    },
+    "fish_05": {
+        "uid": "81d01e6ce8f745778e2629bca80724af",
+        "description": "A 3D model of a cartoon koi fish with big eyes and a pink and white tail."
+    },
+    "fish_06": {
+        "uid": "9e6fb46ca4b74f45990c5f7f9ae44cbd",
+        "description": "Black and white fish illustration"
+    },
+    "fish_07": {
+        "uid": "b6ef6a2eb1024e7bb5aba7755568a074",
+        "description": "3D Piranha Model for 3DS Max, Maya, Blender, and Other 3D Software"
+    },
+    "fish_08": {
+        "uid": "bced11a727cb4954a018f4053456d6e1",
+        "description": "A 3D model of a blue and pink fish."
+    },
+    "fish_09": {
+        "uid": "cc22f952842946f48c1b126d73320389",
+        "description": "Yellow and white fish"
+    },
+    "frog_00": {
+        "uid": "0e6df765d30943bd877970b3da1aa90d",
+        "description": "3D model of a green frog, royalty-free and available for sale."
+    },
+    "frog_01": {
+        "uid": "256158b91b0c41b599674169d07263a1",
+        "description": "3D model of a green frog with white eyes and a spaceship-like design."
+    },
+    "frog_02": {
+        "uid": "42a3686022014ca29adff471cfb548e1",
+        "description": "Green Frog 3D Model - Royalty-Free"
+    },
+    "frog_03": {
+        "uid": "85d3425bf1834efca131f02d60b6aeb9",
+        "description": "3D printed green frog on a leaf-shaped plate"
+    },
+    "frog_04": {
+        "uid": "aac24dd940994c8c9d84931e44508fea",
+        "description": "A 3D model of a cute green and pink frog."
+    },
+    "frog_05": {
+        "uid": "b20a201041144fe4b573734fb43a31f4",
+        "description": "3D model of a frog and teddy bear sitting on a stick."
+    },
+    "frog_06": {
+        "uid": "b2a553ae36a8452cba40a6ba1ce7c363",
+        "description": "A 3D model of a green frog."
+    },
+    "frog_07": {
+        "uid": "cc722e18d40548a2bd67c4c15cd17681",
+        "description": "White ceramic frog statue on a rock."
+    },
+    "frog_08": {
+        "uid": "d262d850c849400cbebcb41cd8cb5a8c",
+        "description": "Green frog on a round white plate."
+    },
+    "frog_09": {
+        "uid": "ea19e8b075d44c2a86cd369d85ed77ee",
+        "description": "3D model of a green and white frog"
+    },
+    "giraffe_00": {
+        "uid": "1bf85fbd7417479791a6cebbf950cb3c",
+        "description": "A 3D model of a giraffe wearing a scarf."
+    },
+    "giraffe_01": {
+        "uid": "2555ca0bda09497d9caf277c1d9e228e",
+        "description": "Giraffe 3D Model - Royalty Free - Preview No. 1"
+    },
+    "giraffe_02": {
+        "uid": "4dae36c0831c4ce4a66af78b8f2c4d9d",
+        "description": "Yellow Giraffe 3D Model - Royalty-Free Preview No. 1"
+    },
+    "giraffe_03": {
+        "uid": "6c481ee9b724465d82aeb64e3e417c54",
+        "description": "A white 3D giraffe toy"
+    },
+    "giraffe_04": {
+        "uid": "a7ff74de323f4811a95c3495dbe05f40",
+        "description": "Giraffe 3D Model - Royalty-Free for Sale, Preview No. 1"
+    },
+    "giraffe_05": {
+        "uid": "cdec8a3b9299474eb642509bc5b37844",
+        "description": "Giraffe 3D Model - Royalty-Free Cartoon Giraffe for 3ds Max and Sale"
+    },
+    "giraffe_06": {
+        "uid": "d90db5cff6344a04b45cf95d1f32a8a9",
+        "description": "3D model of a walking giraffe."
+    },
+    "giraffe_07": {
+        "uid": "e9715aee26bd4e03b2740547b5b259d0",
+        "description": "Low Poly Giraffe 3D Model for Printing - Royalty Free"
+    },
+    "giraffe_08": {
+        "uid": "edd005134afc4155a1dad87b1f3d95bb",
+        "description": "Royalty-free 3D giraffe model - Preview No. 1"
+    },
+    "giraffe_09": {
+        "uid": "ffca8bb09691443384e6fab09f2bca90",
+        "description": "Giraffe 3D Model - Royalty-Free and Available in 3DS Max Format"
+    },
+    "guitar_00": {
+        "uid": "0321b21b146546929495f7d2fa597418",
+        "description": "A 3D model of a yellow acoustic guitar."
+    },
+    "guitar_01": {
+        "uid": "0a67872c295843749d3a1cc2c2a075bd",
+        "description": "Blue Acoustic Guitar 3D Model"
+    },
+    "guitar_02": {
+        "uid": "3dc331f7a47441a7a08af2abfdb6fc07",
+        "description": "3D model of a wooden acoustic guitar"
+    },
+    "guitar_03": {
+        "uid": "4281970c9fe94a778df26fa6f0c58a96",
+        "description": "Blue ukulele 3D model"
+    },
+    "guitar_04": {
+        "uid": "5241c8c7cc954b6f822cd1d80d0579a2",
+        "description": "3D model of a white acoustic guitar"
+    },
+    "guitar_05": {
+        "uid": "58874dc37c2e46088cfc1c0601c7e4a1",
+        "description": "White and brown ukulele 3D model"
+    },
+    "guitar_06": {
+        "uid": "770b851ca34343a2825180ec23800402",
+        "description": "3D model of a wooden acoustic guitar."
+    },
+    "guitar_07": {
+        "uid": "a1ad2734fdf14d0b90e90aea8a6c1dad",
+        "description": "Royalty-free 3D model of an acoustic guitar"
+    },
+    "guitar_08": {
+        "uid": "b0bba8e98d31421a86f82875d15e097e",
+        "description": "3D model of a yellow ukulele."
+    },
+    "guitar_09": {
+        "uid": "d401ca5456a24c2db734a1deb04f931a",
+        "description": "3D model of a mandolin and banjo, available in formats for 3ds Max, C4D, Maya, and Blender."
+    },
+    "gun_00": {
+        "uid": "04d150d363594b2d9a7781ed76340eec",
+        "description": "3D model of a white gun"
+    },
+    "gun_01": {
+        "uid": "0a51959d26ab4b1ca1c63400d387394d",
+        "description": "3D model of a silver revolver"
+    },
+    "gun_02": {
+        "uid": "0daf244070a24a24ab29d0d6f86977ef",
+        "description": "A 3D model of a gun with blue and black accents, featuring a blue light and handle."
+    },
+    "gun_03": {
+        "uid": "19f1c00170c14dfa900f563bd05c5dac",
+        "description": "A 3D model of a gun with a pink grip and red trigger."
+    },
+    "gun_04": {
+        "uid": "38cd4b6c99b745d583bd35439e5fa1c5",
+        "description": "3D model of a gun"
+    },
+    "gun_05": {
+        "uid": "5183846d201340aca58831bd2d3a0819",
+        "description": "A 3D model of a tan and black handgun."
+    },
+    "gun_06": {
+        "uid": "7970fdd20e194128a84ed8353a0e4826",
+        "description": "3D model of a gun."
+    },
+    "gun_07": {
+        "uid": "79bd4261d45b4577a822dcffc0897fc5",
+        "description": "3D model of a gun."
+    },
+    "gun_08": {
+        "uid": "83b0739cd4d440ab89901e092c6ac3ad",
+        "description": "3D model of a gun."
+    },
+    "gun_09": {
+        "uid": "9e45e03e727b47adbc2a68b1db5ed53a",
+        "description": "3D model of a gun with an orange handle."
+    },
+    "helicopter_00": {
+        "uid": "209c56eb6c36418abafafca259a8b818",
+        "description": "3D model of a small helicopter flying in the air."
+    },
+    "helicopter_01": {
+        "uid": "392a6ba320564797a66f519de0426dd2",
+        "description": "3D model of a military helicopter flying in the air."
+    },
+    "helicopter_02": {
+        "uid": "595f18c1672c44049deb3be2cabaf169",
+        "description": "A 3D model of a blue and white helicopter."
+    },
+    "helicopter_03": {
+        "uid": "742d79bd765146339a8178d79051913d",
+        "description": "A 3D model of a white and blue helicopter flying in the air."
+    },
+    "helicopter_04": {
+        "uid": "85e85f3581a24e7a96ad46de2c2fed64",
+        "description": "Green helicopter flying in the air."
+    },
+    "helicopter_05": {
+        "uid": "8b611680277044e1918e7880098f75e9",
+        "description": "A small red and white helicopter"
+    },
+    "helicopter_06": {
+        "uid": "9273c66886cd4792a983263d2082da82",
+        "description": "A 3D low poly model of a small helicopter flying."
+    },
+    "helicopter_07": {
+        "uid": "d1334f0020d7412b9635314752b594e4",
+        "description": "Green 3D helicopter model flying in the air."
+    },
+    "helicopter_08": {
+        "uid": "d1f8263abad54e1ebd831683dd63f865",
+        "description": "A 3D model of a green military helicopter flying."
+    },
+    "helicopter_09": {
+        "uid": "f92215936dcf4618a9d5d5ce86b7e2f4",
+        "description": "A 3D model of a flying helicopter."
+    },
+    "helmet_00": {
+        "uid": "049c234ae04f42adaed9b2fed13765d1",
+        "description": "Viking Helmet 3D Model"
+    },
+    "helmet_01": {
+        "uid": "1d489db9cdc24161a7537926a20bb17b",
+        "description": "Red and white motorcycle helmet with a dragon design."
+    },
+    "helmet_02": {
+        "uid": "1e32e931ffc34fd5a4e839cb6131347c",
+        "description": "A 3D model of a helmet with goggles, leather strap, and laces."
+    },
+    "helmet_03": {
+        "uid": "7b45769ec16e4575b3fdf3f324f1c471",
+        "description": "Halo Helmet 3D Model"
+    },
+    "helmet_04": {
+        "uid": "982666c56fa44e1bb66518198e3ae9f6",
+        "description": "Boba Fett Helmet Low Poly 3D Printed Model"
+    },
+    "helmet_05": {
+        "uid": "984038932f0d4586a3c619280cf89bad",
+        "description": "3D model of a German helmet."
+    },
+    "helmet_06": {
+        "uid": "a0d0b01f22d346629306bf316d539714",
+        "description": "3D model of a helmet."
+    },
+    "helmet_07": {
+        "uid": "a2448a561901428ba571752068ec89ef",
+        "description": "Green military helmet with a leather strap (3D model)"
+    },
+    "helmet_08": {
+        "uid": "a266d67f35814a21ad0d2d63d94409ec",
+        "description": "A 3D model of a futuristic Iron Man helmet with red and silver design."
+    },
+    "helmet_09": {
+        "uid": "ead53728d4004a6686de6cb323d39007",
+        "description": "Boba Fett Mandalorian Helmet 3D Model with Light"
+    },
+    "horse_00": {
+        "uid": "34d4e9d8837549199658133c36643bf0",
+        "description": "3D model of a horse"
+    },
+    "horse_01": {
+        "uid": "4a8f37249b10446b8051ad56c7edf7a9",
+        "description": "3D model of a white horse."
+    },
+    "horse_02": {
+        "uid": "53a6eb7ccf054aa2a378dd7ec08f88fe",
+        "description": "A 3D model of a horse with a long tail and long legs, accompanied by a flying rooster."
+    },
+    "horse_03": {
+        "uid": "810f897e3d264f7a8daa4e047b40582a",
+        "description": "A 3D model of a white horse."
+    },
+    "horse_04": {
+        "uid": "81cd003c9464476bbb6caa756559d8ae",
+        "description": "3D model of a white horse"
+    },
+    "horse_05": {
+        "uid": "bd71883bad9845389ef4ec2801004801",
+        "description": "A 3D model of a green crane with a black handle and a long tail, resembling a hybrid of a helicopter, lamp, and horse."
+    },
+    "horse_06": {
+        "uid": "bf1a64c7e3fc48e6a2d8c23277b56434",
+        "description": "A low poly 3D model of a horse with a brown mane and tail."
+    },
+    "horse_07": {
+        "uid": "c1d6c8b90929452d9abbc530af66954d",
+        "description": "A low-poly 3D model of a horse with a red mane, red horn, red and black legs, and red shoes."
+    },
+    "horse_08": {
+        "uid": "c66ca5635c2a42178b7dc5c5e547c404",
+        "description": "3D model of a horse with a tail."
+    },
+    "horse_09": {
+        "uid": "f2d60736e50849deb7658f72f1bdbf30",
+        "description": "Low poly horse with saddle and bridle."
+    },
+    "icecream_00": {
+        "uid": "0521d3ab35144e35a8c98515ce4f53f3",
+        "description": "3D model of a white unicorn ice cream cone with a face on it."
+    },
+    "icecream_01": {
+        "uid": "266af5b6ef0548a0b574438d5a56889f",
+        "description": "3D ice cream cone model"
+    },
+    "icecream_02": {
+        "uid": "3babf9172578407cac7268d3eb9cc2cc",
+        "description": "3D model of a purple ice cream in a white cup and cone."
+    },
+    "icecream_03": {
+        "uid": "5241b863cbad4d2d8d6780fc9af0246d",
+        "description": "Low Poly Ice Cream Cone 3D Model"
+    },
+    "icecream_04": {
+        "uid": "70e12a92d4834dd8ba25c688a3f411ee",
+        "description": "3D ice cream cone model"
+    },
+    "icecream_05": {
+        "uid": "8d283399dde7478f8aa977b48a427c36",
+        "description": "Pink ice cream cone"
+    },
+    "icecream_06": {
+        "uid": "cc5e3d70ebba4215890504ea311252ba",
+        "description": "White and pink ice cream cone with sprinkles, 3D model."
+    },
+    "icecream_07": {
+        "uid": "cd1bdaef621d4a5d9c9af6a381aafcbd",
+        "description": "3D printed pink and white striped ice cream cone model"
+    },
+    "icecream_08": {
+        "uid": "dfd3875d8807400dbab04a73b08ccf35",
+        "description": "3D Ice Cream Cone Model"
+    },
+    "icecream_09": {
+        "uid": "e403051d77f84c1ab359caa0866106b7",
+        "description": "3D model of an ice cream cone"
+    },
+    "jar_00": {
+        "uid": "03a5f54034b64995bcce6291b35bff71",
+        "description": "3D model of a glass bottle with a wooden lid and green label."
+    },
+    "jar_01": {
+        "uid": "2f8cf49400954961866ff97e4d74080c",
+        "description": "A small white and green ceramic urn with a lid, diamond pattern, and handle."
+    },
+    "jar_02": {
+        "uid": "3de9bc73be624f47876d1a34b98813ab",
+        "description": "A 3D model of a jar with a green and gold label featuring a skull and crossbones."
+    },
+    "jar_03": {
+        "uid": "7272f055ce484be8b1588e139a6484a2",
+        "description": "White jar with a lid (3D model)"
+    },
+    "jar_04": {
+        "uid": "72d084f7de4c4e599940410963702493",
+        "description": "A gray jar with a yellow lid and hazard sign."
+    },
+    "jar_05": {
+        "uid": "a7930393e1ca408bb5eab9377b5873dc",
+        "description": "A 3D blue and white jar with a lid, resembling a low poly milk jug."
+    },
+    "jar_06": {
+        "uid": "b9dbae7ef66241e8b1afbf00af34de4a",
+        "description": "White jar with a lid, resembling a marble hat."
+    },
+    "jar_07": {
+        "uid": "c6a403de625f4a49b6a162f8cc22e0b3",
+        "description": "3D model of a green jar with a yellow lid."
+    },
+    "jar_08": {
+        "uid": "cfd71d082ff343938350a75e862613a0",
+        "description": "A glass bottle containing yellow liquid."
+    },
+    "jar_09": {
+        "uid": "d8cba8750867408e8bffd62a00c97583",
+        "description": "3D model of a small yellow honey jar with a handle and lid."
+    },
+    "keg_00": {
+        "uid": "08162303550a4089b1eb98f13763c92e",
+        "description": "3D model of a barrel."
+    },
+    "keg_01": {
+        "uid": "0a3da81bfa904cafa446ab97e7a62cad",
+        "description": "3D model of a large white wooden barrel with striped design."
+    },
+    "keg_02": {
+        "uid": "132e02dedec648128bafc0979c32399c",
+        "description": "3D wooden barrel model"
+    },
+    "keg_03": {
+        "uid": "2ef361391cb4455b9dced66544b4b965",
+        "description": "A 3D model of a wooden barrel."
+    },
+    "keg_04": {
+        "uid": "3e8d1d6e11ac41e3b7f03978af2315dc",
+        "description": "3D model of a wooden barrel"
+    },
+    "keg_05": {
+        "uid": "5cc2ef84ef3a466babe4e315035a053e",
+        "description": "3D low-poly wooden barrel model"
+    },
+    "keg_06": {
+        "uid": "63f27ae01a164941816ca9366c4062bf",
+        "description": "A 3D model of a wooden barrel."
+    },
+    "keg_07": {
+        "uid": "90009fa6fa0b4d4bb1a1203431954097",
+        "description": "3D model of a wooden barrel"
+    },
+    "keg_08": {
+        "uid": "9ac825106dfc47838e47cfffdab65b12",
+        "description": "3D model of a wooden barrel"
+    },
+    "keg_09": {
+        "uid": "b2d9c4228f8f41fcb66de1b793e6e8e3",
+        "description": "3D model of a wooden Jack Daniels barrel with the words \"Johnnie Johnnie's\" on it."
+    },
+    "key_00": {
+        "uid": "006c3cf0236e413292d9c2180e1b60ba",
+        "description": "A 3D model of a yellow key with a ring attached."
+    },
+    "key_01": {
+        "uid": "34998df98cac4fa4a3a1ac395df5f708",
+        "description": "A 3D golden-yellow key with black accents."
+    },
+    "key_02": {
+        "uid": "5a74fa82815b4e899ad4d5817d58ade5",
+        "description": "3D silver key model"
+    },
+    "key_03": {
+        "uid": "8db2289f777d4e16833b799c65e8a822",
+        "description": "3D gold key model"
+    },
+    "key_04": {
+        "uid": "92167e12a3f04ca691a5126f25976017",
+        "description": "3D model of a key ring with multiple keys."
+    },
+    "key_05": {
+        "uid": "a03f60e8464e494a89a8565d31d57471",
+        "description": "A 3D gold key with a ring, featuring rust details."
+    },
+    "key_06": {
+        "uid": "a4aca11a2259462f8735a60eead33962",
+        "description": "A 3D model of a large key."
+    },
+    "key_07": {
+        "uid": "ba2e4510332640ae8b26e8dcd6e04ce6",
+        "description": "3D model of a golden key."
+    },
+    "key_08": {
+        "uid": "d63a3622b7d24be785aee44635750fed",
+        "description": "3D model of a key."
+    },
+    "key_09": {
+        "uid": "f555018527344d4cb0ed43ce7d744e07",
+        "description": "A yellow key."
+    },
+    "kitten_00": {
+        "uid": "09242ebb27164edca7c84991bcb16ae0",
+        "description": "A 3D model of a blue cat with yellow eyes holding a stick."
+    },
+    "kitten_01": {
+        "uid": "118f19a1e9a1479285a3141c0d1f9b3f",
+        "description": "Japanese lucky cat 3D model: a white cat figurine with a red collar."
+    },
+    "kitten_02": {
+        "uid": "1368b562a86d4ef4b0c2180be02ae675",
+        "description": "3D model of a white cat"
+    },
+    "kitten_03": {
+        "uid": "1c548a57e4634340886943b76c7446ba",
+        "description": "A 3D model of a white and pink cat with an open mouth."
+    },
+    "kitten_04": {
+        "uid": "6e516c1b7a9f40b19caec424829066db",
+        "description": "A 3D model of a white cat with green eyes and an open mouth, surrounded by green leaves."
+    },
+    "kitten_05": {
+        "uid": "76980ab8631d4e3d93e2e8a82cda7e6c",
+        "description": "A 3D model of a blue and white cat with closed eyes holding a controller."
+    },
+    "kitten_06": {
+        "uid": "76c068d30f0b463bb800c0beaf792a4d",
+        "description": "3D model of a white cat with green eyes."
+    },
+    "kitten_07": {
+        "uid": "842c7b0398f348b792611c06e73cc3cb",
+        "description": "A 3D model of a purple cat wearing a purple dress."
+    },
+    "kitten_08": {
+        "uid": "983f87ae52a64cfc9d4c914c2874e911",
+        "description": "A 3D model of a blue cartoon cat wearing a party hat with a long tail."
+    },
+    "kitten_09": {
+        "uid": "df20a205f05a4878a24ffd72d745bde6",
+        "description": "A 3D purple and blue cat with stars and constellations on its back."
+    },
+    "knife_00": {
+        "uid": "0e4323816a78466a8fa2c677e7cdeaf1",
+        "description": "Black 3D knife model"
+    },
+    "knife_01": {
+        "uid": "24ade8295ad54611a4344bbb4a8b5d32",
+        "description": "3D model of a knife"
+    },
+    "knife_02": {
+        "uid": "2f55fb55663146e286c166fa29aa2e74",
+        "description": "A 3D model of a dagger with a green handle."
+    },
+    "knife_03": {
+        "uid": "6c13b2e374784df680276735ad6f1aa5",
+        "description": "A 3D knife with a green handle."
+    },
+    "knife_04": {
+        "uid": "82b20a9887a54de790e24f3e85c29574",
+        "description": "A knife with a red, white, and blue handle."
+    },
+    "knife_05": {
+        "uid": "a8677d9c7a5b43fe966ac48d2798dad2",
+        "description": "A large knife with a wooden handle."
+    },
+    "knife_06": {
+        "uid": "b27c9121ed994f3d914165fc18b1bdec",
+        "description": "A 3D model of a knife with a red, white, and blue handle."
+    },
+    "knife_07": {
+        "uid": "c18311d8ba774212943459d53d4adc4a",
+        "description": "A knife with a wooden handle."
+    },
+    "knife_08": {
+        "uid": "c72f42708aea433d9ed8e096d88f9ede",
+        "description": "A 3D model of a knife with a black handle."
+    },
+    "knife_09": {
+        "uid": "e5b438dac9454b1baa31c7b035a00126",
+        "description": "A 3D model of a white knife with a wooden handle."
+    },
+    "lampshade_00": {
+        "uid": "0002e50309b44e409c96f440202d90b3",
+        "description": "A table lamp with a beige and white shade."
+    },
+    "lampshade_01": {
+        "uid": "0f26f15559b5421cba32468fb1b84878",
+        "description": "A black and white table lamp with a white shade and bottle inside."
+    },
+    "lampshade_02": {
+        "uid": "289151e3e35541b4a3a7d2bb89acb90e",
+        "description": "A yellow table lamp with a white shade."
+    },
+    "lampshade_03": {
+        "uid": "35a4d3eec65d45d3b6c971b187b4c55d",
+        "description": "White table lamp with interchangeable white and blue shades."
+    },
+    "lampshade_04": {
+        "uid": "3f302c3a3aee4c78ad9a9827304f8d35",
+        "description": "A wooden table lamp with a beige shade."
+    },
+    "lampshade_05": {
+        "uid": "44e81f0de2934a76a99aa074a0058ea6",
+        "description": "A table lamp with a copper shade and black metal base."
+    },
+    "lampshade_06": {
+        "uid": "4ebf4cef4ec642ff956fe680033b410a",
+        "description": "A small table lamp with a wooden base and a blue shade."
+    },
+    "lampshade_07": {
+        "uid": "596ed6a565d145af857952064bcce708",
+        "description": "White table lamp with a white shade"
+    },
+    "lampshade_08": {
+        "uid": "61a8d41d5f6e41698d560520a8bdad9c",
+        "description": "White lamp with a shade, 3D model."
+    },
+    "lampshade_09": {
+        "uid": "a4ef6127b6dc450ab927227b891ca23f",
+        "description": "A table lamp with a yellow and white leaf-patterned shade on a white base."
+    },
+    "lightbulb_00": {
+        "uid": "1a121ba643144d7bb36655d999b10493",
+        "description": "A 3D model of a yellow light bulb."
+    },
+    "lightbulb_01": {
+        "uid": "1c78af4bd9784c70bdc920843ff54892",
+        "description": "3D model of a light bulb."
+    },
+    "lightbulb_02": {
+        "uid": "24d1bb5b02014ba8be693b6cca1ca752",
+        "description": "A 3D white light bulb."
+    },
+    "lightbulb_03": {
+        "uid": "2b358bd708c04b5c978e35f75f63d2b9",
+        "description": "White light bulb"
+    },
+    "lightbulb_04": {
+        "uid": "42ac3d271a3a47da829a86239227560f",
+        "description": "3D model of a grey marble ball on a stand."
+    },
+    "lightbulb_05": {
+        "uid": "86364373a3be40949e4a6a863933a25a",
+        "description": "Light bulb in a cup (3D model)"
+    },
+    "lightbulb_06": {
+        "uid": "871ed12da7484c86b4d59a306813b1f9",
+        "description": "White plastic bottle with a white cap and light bulb feature."
+    },
+    "lightbulb_07": {
+        "uid": "8c8d1259150f43679a097dda0598f486",
+        "description": "White spiral light bulb"
+    },
+    "lightbulb_08": {
+        "uid": "a7a8a64ca7ec4317ba59063748ce1cf5",
+        "description": "3D white light bulb model"
+    },
+    "lightbulb_09": {
+        "uid": "bbe1dbc3c5fc4f9cbbcb609880f7aa6d",
+        "description": "A light bulb."
+    },
+    "mallet_00": {
+        "uid": "048948358cf94472bd0946621a653709",
+        "description": "3D model of a hammer with a wooden handle."
+    },
+    "mallet_01": {
+        "uid": "090857589888406c94b8c22b8198b110",
+        "description": "Thor's Hammer 3D Model with Spikes"
+    },
+    "mallet_02": {
+        "uid": "14c4dd4621df4a7695e7b56db623c69b",
+        "description": "3D model of a hammer with a wooden handle."
+    },
+    "mallet_03": {
+        "uid": "1a12c7951b90419c8e7b4f881231cd9f",
+        "description": "A 3D wooden hammer with a wooden handle."
+    },
+    "mallet_04": {
+        "uid": "2e4f49f6b18943e6bb0b0ccd2b14312f",
+        "description": "3D model of Thor's wooden hammer"
+    },
+    "mallet_05": {
+        "uid": "5acbf31e2ead426d8321e3e07fc53ad5",
+        "description": "Wooden-handled hammer 3D model."
+    },
+    "mallet_06": {
+        "uid": "619c004f87e74191abbafe9395c22259",
+        "description": "Royalty-free Hammer 3D Model - Preview No. 1"
+    },
+    "mallet_07": {
+        "uid": "881b5895519047bea595b8731e5a0d52",
+        "description": "Wooden hammer 3D model"
+    },
+    "mallet_08": {
+        "uid": "8bede92081044e219e9cba0b5e3753f9",
+        "description": "3D hammer model compatible with 3ds Max, Maya, Blender, and other 3D modeling software, featuring a wooden handle."
+    },
+    "mallet_09": {
+        "uid": "a914847c44fa40a685fafe211e118d93",
+        "description": "3D model of a wooden-handled hammer, available for free download."
+    },
+    "mascot_00": {
+        "uid": "00a1d892548542c7ab83565070737d6b",
+        "description": "A 3D model of a yellow and black kite with striped patterns, resembling a bird, dragon, and insect."
+    },
+    "mascot_01": {
+        "uid": "36a37af9cdfb4ccc8e129910a35fec92",
+        "description": "A 3D model of a green teddy bear with arms outstretched and wearing sneakers."
+    },
+    "mascot_02": {
+        "uid": "458f2154d1cf4bbba3787aaecf5389c9",
+        "description": "A 3D model of a blue cat in a suit, resembling a robot with outstretched arms."
+    },
+    "mascot_03": {
+        "uid": "4eabbf7ab80e4db8910ece11c9fd853f",
+        "description": "A 3D model of a green cartoon bear with outstretched arms."
+    },
+    "mascot_04": {
+        "uid": "5ebb20b9014e4b9c803191c7bb43395f",
+        "description": "A 3D model of a penguin character wearing a blue and black helmet and shirt."
+    },
+    "mascot_05": {
+        "uid": "6671776968a747ff8f2fb665a62d1be9",
+        "description": "A 3D green cartoon bear character wearing a hat, white sneakers, and underwear with outstretched arms."
+    },
+    "mascot_06": {
+        "uid": "7d1349aba9e346c592a4f91bfd422a20",
+        "description": "3D model of a yellow and white potato mascot cartoon character holding a soda bottle and wearing yellow and white shoes."
+    },
+    "mascot_07": {
+        "uid": "907a4dcea6b04b4c920936860c308323",
+        "description": "3D model of a green and white cartoon character with green gloves, a white shirt, and holding a phone."
+    },
+    "mascot_08": {
+        "uid": "9fa2ca3f5fb041ac94cb610d18bd56cc",
+        "description": "3D cartoon character wearing a red, white, and blue outfit."
+    },
+    "mascot_09": {
+        "uid": "a0d26974b8054a46a68a326ce1f1e79f",
+        "description": "3D model of a blue, furry creature with outstretched arms and yellow feathers."
+    },
+    "microphone_00": {
+        "uid": "1f48a1a02fa448e5b9b2f350f05a401d",
+        "description": "Microphone"
+    },
+    "microphone_01": {
+        "uid": "2371d1aea7b647b3bbe635d0db8d4fd2",
+        "description": "A 3D model of a brown bird holding a ball on a stick."
+    },
+    "microphone_02": {
+        "uid": "29cf1438c0964956be0c9fdf80996796",
+        "description": "A black microphone with a yellow handle and \"xoxo\" written on it."
+    },
+    "microphone_03": {
+        "uid": "2ae4d0417bf94008afd360a43074291e",
+        "description": "3D model of a microphone"
+    },
+    "microphone_04": {
+        "uid": "58351abc254d406583b120d2b2eeae37",
+        "description": "White 3D model of a microphone."
+    },
+    "microphone_05": {
+        "uid": "86f58475306947ab814df2c87ac86df4",
+        "description": "3D model of a black microphone on a stand."
+    },
+    "microphone_06": {
+        "uid": "8b2a6c17b6b640ee801b4048e8d6bb72",
+        "description": "Microphone displayed"
+    },
+    "microphone_07": {
+        "uid": "9d49fa462bbc433d9226bce39188d7f1",
+        "description": "A white and blue microphone on a black stand with a cord attached."
+    },
+    "microphone_08": {
+        "uid": "c056df51fcab48cb8aae366b178c9537",
+        "description": "A black and pink microphone with a pink ball on top and pink trim."
+    },
+    "microphone_09": {
+        "uid": "f9d07bb386a04de8b0e1a9a28a936985",
+        "description": "A black microphone on a stand."
+    },
+    "motorcycle_00": {
+        "uid": "165dd586aac84692b0c4362955a111ba",
+        "description": "A 3D model of a green motorcycle with a brown seat."
+    },
+    "motorcycle_01": {
+        "uid": "18318634820b4fc2950d125788519f4d",
+        "description": "BMW R 1200 GS Motorcycle 3D Model"
+    },
+    "motorcycle_02": {
+        "uid": "26ae79bc6b5e426981a049ff90d8b8b0",
+        "description": "3D model of a motorcycle."
+    },
+    "motorcycle_03": {
+        "uid": "49d81cd52df6422a81132835c2555b2f",
+        "description": "3D model of a pink motorcycle"
+    },
+    "motorcycle_04": {
+        "uid": "7e684a7c012c4fd0ac91844f22457640",
+        "description": "A 3D model of a white motorcycle with wings."
+    },
+    "motorcycle_05": {
+        "uid": "96e9fcb1e73c46b4b63fc06cfe424648",
+        "description": "Green motorcycle 3D model."
+    },
+    "motorcycle_06": {
+        "uid": "a06ac84d848242c58c3d4517c189f8e3",
+        "description": "An orange and blue 3D model of a motorcycle."
+    },
+    "motorcycle_07": {
+        "uid": "ad0f9220657c43fb89692dcf7a6b45a8",
+        "description": "3D model of a scooter."
+    },
+    "motorcycle_08": {
+        "uid": "b34d0cba655e46c99070fbfd1d4e4ffb",
+        "description": "White motorcycle"
+    },
+    "motorcycle_09": {
+        "uid": "b6c212a12d85425bb166f43cd3d70248",
+        "description": "A 3D model of a small black motorcycle."
+    },
+    "mug_00": {
+        "uid": "2d62085f95e64665bf8eb1e623f1f0f3",
+        "description": "A white mug with a smiley face and the words \"Ryan Tran\" on it."
+    },
+    "mug_01": {
+        "uid": "52d54d64e2544ace8a41d33d2ee03fdc",
+        "description": "3D model of a coffee mug with various wordings (Uber, Huber, Hudson, Hurley) and a red logo."
+    },
+    "mug_02": {
+        "uid": "6734e6f2fc6e4f80a887e6cfc9c92cc4",
+        "description": "A wooden beer mug with metal accents, rivets, and a metal handle."
+    },
+    "mug_03": {
+        "uid": "74f2d58ffb5f4fc8951be72cd13f64d6",
+        "description": "White coffee mug or plastic cup with a lampshade-like design."
+    },
+    "mug_04": {
+        "uid": "7cc9e64d7ffd4e369595062abb3ab177",
+        "description": "White coffee mug with a handle"
+    },
+    "mug_05": {
+        "uid": "922cd7d18c6748d49fe651ded8a04cf4",
+        "description": "Blue Texas Rangers coffee mug with handle and red-white logo, 3D model."
+    },
+    "mug_06": {
+        "uid": "93ad19db34bc49a0b7acc24e7a5a22fd",
+        "description": "White coffee mug 3D model"
+    },
+    "mug_07": {
+        "uid": "a564a11174be455bbce4698f7da92fdf",
+        "description": "A 3D red mug with yellow arrows and numbers, resembling the Chinese flag."
+    },
+    "mug_08": {
+        "uid": "c25119c5ac6e4654be3b75d78e34a912",
+        "description": "A 3D model of a pink mug with black trim."
+    },
+    "mug_09": {
+        "uid": "c666d90ad57e44f1baf90e5ec062a152",
+        "description": "3D model of a white coffee mug."
+    },
+    "mushroom_00": {
+        "uid": "0bbf336a2cb2467bb34608e6b38ef3ff",
+        "description": "A 3D red and white polka-dotted mushroom."
+    },
+    "mushroom_01": {
+        "uid": "2aa3256dfecf440a8bb26fdd17fa73c3",
+        "description": "A 3D red and white mushroom model."
+    },
+    "mushroom_02": {
+        "uid": "357416df2f5740a183e26c8b4c74a55c",
+        "description": "Low-poly mushroom model"
+    },
+    "mushroom_03": {
+        "uid": "4a9b48bdd678408a81a488dcd380e6d8",
+        "description": "A red and white polka-dotted mushroom."
+    },
+    "mushroom_04": {
+        "uid": "4b67b1d642b442e5b10114930cb90690",
+        "description": "A low poly red mushroom with white dots."
+    },
+    "mushroom_05": {
+        "uid": "7306f0db4e824784ac90ec5de478253f",
+        "description": "A pink and red mushroom with white spots."
+    },
+    "mushroom_06": {
+        "uid": "767a395d901d40128eb6c18bc64bd202",
+        "description": "A pink and white mushroom with a ribbon on its stem."
+    },
+    "mushroom_07": {
+        "uid": "7d96451da81e4f72a87989415c2aaa9b",
+        "description": "A white mushroom-shaped lamp."
+    },
+    "mushroom_08": {
+        "uid": "a9422fc585ca4433a198f5411e157091",
+        "description": "Two red mushrooms with white bases."
+    },
+    "mushroom_09": {
+        "uid": "e4ebb7a0afb94b618583f2c6bb2ddab4",
+        "description": "Pink and white mushroom with white dots."
+    },
+    "oil_lamp_00": {
+        "uid": "251ecbd0d371435f985b705df00f5ecf",
+        "description": "Old rusty lantern 3D model"
+    },
+    "oil_lamp_01": {
+        "uid": "5982d309266d4654a01e01debe54d842",
+        "description": "A 3D model of a small, old-fashioned metal lantern hanging from a wire."
+    },
+    "oil_lamp_02": {
+        "uid": "6a440d28424c451098a6ebbe51c848c7",
+        "description": "A small metal lantern hanging from a cage."
+    },
+    "oil_lamp_03": {
+        "uid": "8202c8fefcf1434abbab9b2eae9a2c16",
+        "description": "A 3D model of a small, gold-colored, old-fashioned lantern."
+    },
+    "oil_lamp_04": {
+        "uid": "8f07a87f281343009ff480f8d7e5db83",
+        "description": "3D model of an old-fashioned lantern"
+    },
+    "oil_lamp_05": {
+        "uid": "8fc797d63d574f8db310de3b657a41b5",
+        "description": "3D low poly model of an orange lantern."
+    },
+    "oil_lamp_06": {
+        "uid": "9cfb6d5121a14c3691bdf9c92a37c8d9",
+        "description": "A small, old-fashioned metal lantern 3D model."
+    },
+    "oil_lamp_07": {
+        "uid": "9d65ca34fa3d432b9372c9cdb60a9a00",
+        "description": "A 3D model of a small, old-fashioned metal lantern with a glass top, resembling an oil lamp."
+    },
+    "oil_lamp_08": {
+        "uid": "a1de8398597a4575a9c9a9f0a6e4dd2b",
+        "description": "Old rusty lantern 3D model"
+    },
+    "oil_lamp_09": {
+        "uid": "baec7257198e4747964ae0b291af23f9",
+        "description": "A small red lantern with a handle, hanging from a wire."
+    },
+    "pickup_truck_00": {
+        "uid": "107eee5085634f86b8d362f6b5674687",
+        "description": "A 3D model of a red pickup truck."
+    },
+    "pickup_truck_01": {
+        "uid": "31d59bae140c4667af5162d44aa0fb56",
+        "description": "3D model of a small blue toy pickup truck with wheels."
+    },
+    "pickup_truck_02": {
+        "uid": "75d95d639f9d41e3adef6f74a6f45305",
+        "description": "3D model of a blue Ford F-150 XLT pickup truck."
+    },
+    "pickup_truck_03": {
+        "uid": "777537facaa64f8a9808fc989648bc23",
+        "description": "3D model of a red Ford F-150 pickup truck."
+    },
+    "pickup_truck_04": {
+        "uid": "7cf3226824a94b0d909a7ba0949bb5fe",
+        "description": "3D model of a green pickup truck"
+    },
+    "pickup_truck_05": {
+        "uid": "7e099001a6204ea1a585d1b33d68bde4",
+        "description": "3D model of a red pickup truck"
+    },
+    "pickup_truck_06": {
+        "uid": "8b2f5f02be9f4ee6adcf35db711e287c",
+        "description": "3D model of a blue pickup truck."
+    },
+    "pickup_truck_07": {
+        "uid": "9c0c7b6061f3493c98fe3ebff43ed0c9",
+        "description": "3D model of a vintage copper pickup truck."
+    },
+    "pickup_truck_08": {
+        "uid": "a4c46087374a4a3e979092512f92c057",
+        "description": "3D model of a blue car with a roof rack."
+    },
+    "pickup_truck_09": {
+        "uid": "b1d3d3a8edda4d52ae9019d2150e7bb8",
+        "description": "3D model of a Toyota Tundra police truck"
+    },
+    "pillow_00": {
+        "uid": "287c3f62c2b04a3585e2efe26678b8a6",
+        "description": "White pillow 3D model"
+    },
+    "pillow_01": {
+        "uid": "3211326aee364a8b840c6425b6d4e7b9",
+        "description": "A light blue pillow with white trim and the word \"home\" on it."
+    },
+    "pillow_02": {
+        "uid": "3ed05d0386d745ed95ae6ec7f4ee86dd",
+        "description": "White pillow and sphere"
+    },
+    "pillow_03": {
+        "uid": "3ee733bfd37b4692a7efb7719ba32626",
+        "description": "A 3D model of a pillow with red, blue, and white stripes."
+    },
+    "pillow_04": {
+        "uid": "3f195a49fbb347ea9e5049bfa0998d7a",
+        "description": "A 3D model of two pillows with blue, red, and pink leaf patterns and polka dots."
+    },
+    "pillow_05": {
+        "uid": "6132c68594544694b753b305b50bf66b",
+        "description": "3D model of a green Minecraft Creeper pillow"
+    },
+    "pillow_06": {
+        "uid": "6c13dd979b074b9facd5ea6648597a59",
+        "description": "A pillow featuring a cartoon cat."
+    },
+    "pillow_07": {
+        "uid": "959291591aff4c8fab3f00b0db055932",
+        "description": "A mint green pillow with a giraffe, Chinese character, and black logo on it."
+    },
+    "pillow_08": {
+        "uid": "d4a37e00cee941598d8158f712bc8eab",
+        "description": "A 3D blue bag with a red and white logo, yellow stripe, and a \"buy 1 get 1 free\" text, accompanied by a blue pillow with a green zipper."
+    },
+    "pillow_09": {
+        "uid": "e3e172ee8d184134bc2143f0834eb470",
+        "description": "A grey pillow with furry trim and fringes."
+    },
+    "pliers_00": {
+        "uid": "0e6bc80088714c04a94f823ac7517136",
+        "description": "A pair of pliers."
+    },
+    "pliers_01": {
+        "uid": "12d65aaff05c4ee4a554ca91e6504f72",
+        "description": "A 3D object featuring a pair of pliers, scissors, metal hook, and wooden stick."
+    },
+    "pliers_02": {
+        "uid": "1e36c96bf8b24162a373bdce2daa58e2",
+        "description": "A pair of pliers."
+    },
+    "pliers_03": {
+        "uid": "5a293649f3f64061accc9afdb4008c25",
+        "description": "A 3D model of a pair of pliers with green and black handles."
+    },
+    "pliers_04": {
+        "uid": "5f4e230e322a4a49a2a040900bc34e7f",
+        "description": "A 3D model of a pair of pliers with blue handles."
+    },
+    "pliers_05": {
+        "uid": "6ac0575a12d7494793fad7ae8ae8f6fe",
+        "description": "Red pliers."
+    },
+    "pliers_06": {
+        "uid": "6e6df6348f8f4d0a8bfc2c6682655e93",
+        "description": "3D model of blue pliers"
+    },
+    "pliers_07": {
+        "uid": "77db12d188504505a9209de1bef076ab",
+        "description": "A pair of pliers with green handles."
+    },
+    "pliers_08": {
+        "uid": "8fb78c44545a4391b5c0da6865a93249",
+        "description": "A 3D model of a pair of pliers with a yellow handle."
+    },
+    "pliers_09": {
+        "uid": "a3a6436253c244cca0c280b9b4026c4b",
+        "description": "A 3D model of red and black pliers."
+    },
+    "pottery_00": {
+        "uid": "0b9b4d8173b04614bb9cb40ef2edd240",
+        "description": "3D printed Egyptian vase with red, yellow, and blue stripes."
+    },
+    "pottery_01": {
+        "uid": "21387dd7d2a94d67ac436cdfc13b29d3",
+        "description": "A 3D model of an ancient clay jug with a tag, resembling a large vase."
+    },
+    "pottery_02": {
+        "uid": "45fe8cac96ab467eb643a48667a85fbd",
+        "description": "A 3D model of an ancient clay jug with a handle and writing on it."
+    },
+    "pottery_03": {
+        "uid": "53e7898031684a8dbcf12c8c7805c068",
+        "description": "A 3D model of a small clay bowl with writing and a hole in it."
+    },
+    "pottery_04": {
+        "uid": "5c50e78e4772488688cbbc2968e6a230",
+        "description": "A small 3D clay pot with writing on it."
+    },
+    "pottery_05": {
+        "uid": "5ce01ee7147e4b6fb22d0d0b2732c9e2",
+        "description": "A 3D model of a small, white ceramic ancient jug with a handle."
+    },
+    "pottery_06": {
+        "uid": "62808a566e544968b1a0c2610fe47bd4",
+        "description": "A 3D model of a ceramic vase featuring a blue and orange stripe, resembling a terracotta pot with a grey sphere and orange rim."
+    },
+    "pottery_07": {
+        "uid": "71dc9cf06f5145ac90321303ff3f22fc",
+        "description": "A 3D model of a clay pot with writing on it."
+    },
+    "pottery_08": {
+        "uid": "789ce3b041504943b4397ab0a2bab1b8",
+        "description": "A white 3D ceramic bowl with carved black designs."
+    },
+    "pottery_09": {
+        "uid": "a697df469ce54400a8c662131c1b1276",
+        "description": "A small 3D clay pot with a handle."
+    },
+    "race_car_00": {
+        "uid": "052e003ffae8401fbc6746f933a562aa",
+        "description": "A pink 3D racing toy car"
+    },
+    "race_car_01": {
+        "uid": "ed61db5164ee4e58aaa8b7a53f93f2a9",
+        "description": "A 3D Lego model of a racing sports car."
+    },
+    "race_car_02": {
+        "uid": "109ed75bc4df4400a308cbff7cc70f6d",
+        "description": "Porsche 919 Hybrid Race Car 3D Model"
+    },
+    "race_car_03": {
+        "uid": "18c081f765854d249bb8dc580a1e9f7c",
+        "description": "3D model of a Nissan 370Z sports car"
+    },
+    "race_car_04": {
+        "uid": "2010d22da4fd4b02aea43354a4497a8e",
+        "description": "A 3D model of a purple and blue car with a cartoon character riding on top, featuring the number 13 and a shattered windshield."
+    },
+    "race_car_05": {
+        "uid": "3ab6ef0bf46e49bb84fc122640a521ea",
+        "description": "3D model of a blue and yellow Subaru Impreza WRC toy race car."
+    },
+    "race_car_06": {
+        "uid": "70b8a7f8ae4b45f5ab0580fbcb179823",
+        "description": "3D rendering of a blue race car."
+    },
+    "race_car_07": {
+        "uid": "8d6665b23801431caa03ebbf8c8dfd13",
+        "description": "A 3D model of a yellow, white, and black rally car."
+    },
+    "race_car_08": {
+        "uid": "9c0fe3afda4a4bbeb66e482f79c1e070",
+        "description": "A 3D model of a red racing car and a red skateboard in the air."
+    },
+    "race_car_09": {
+        "uid": "a6cd451fa7a9428099429ad5225b1f77",
+        "description": "A 3D model of a blue racing car."
+    },
+    "ring_00": {
+        "uid": "0721b4cc16664fb59b23b1a32370b13d",
+        "description": "White gold ring with a square emerald stone, diamonds, and a twisting design."
+    },
+    "ring_01": {
+        "uid": "08d02c1c33dc44cab79abdb14175eee1",
+        "description": "A yellow gold ring with a rectangular red stone in the center."
+    },
+    "ring_02": {
+        "uid": "1022e9d02cf64a6cb69b4909ac385182",
+        "description": "White 3D-printed ring with an oval grey stone in the middle."
+    },
+    "ring_03": {
+        "uid": "10db7ee30d594d56900a0b79086e458f",
+        "description": "A rose gold ring with an intricate engraved design and a pink sapphire stone."
+    },
+    "ring_04": {
+        "uid": "2f6d2837fea045a1b5d976f51157a9df",
+        "description": "A white square-shaped ring with an emerald cut green stone."
+    },
+    "ring_05": {
+        "uid": "473d3302496d4c62b86a5ad31f7aa374",
+        "description": "A 3D printed, curved ring with a flower shape, twist design, and a frog embellishment featuring a white stone."
+    },
+    "ring_06": {
+        "uid": "5c8c1b1765934bf38d76b3fb6387a147",
+        "description": "A silver signet ring with a square black onyx stone, diamond in the center, curved design, and Chinese writing."
+    },
+    "ring_07": {
+        "uid": "766a987a381c449c8554fb8bb7e5563e",
+        "description": "A gold ring with an intricate circular design and a diamond in the center."
+    },
+    "ring_08": {
+        "uid": "85fe5b8c70e44492856b5ef37dd87e50",
+        "description": "The One Ring from Lord of the Rings, a 3D model of a yellow gold ring with an inscription."
+    },
+    "ring_09": {
+        "uid": "c4d8cd0a027043f6ad6694784bde1eaf",
+        "description": "A 3D printed engagement ring with a diamond in the middle."
+    },
+    "shark_00": {
+        "uid": "19c928e69d3748ea941e6c5537c7502b",
+        "description": "3D model of a shark in black and white."
+    },
+    "shark_01": {
+        "uid": "323c7c0be01843959c8854f15331332a",
+        "description": "3D model of a shark."
+    },
+    "shark_02": {
+        "uid": "6fd9348394f34bb4897e7b6abb5ce825",
+        "description": "A 3D model of a blue shark."
+    },
+    "shark_03": {
+        "uid": "7a5b5f516881457a941937fc667fc61d",
+        "description": "A 3D model of a shark with its mouth open and a propeller."
+    },
+    "shark_04": {
+        "uid": "9c3ea5f692ca44e0a28b46d86f810968",
+        "description": "A 3D model of a shark with a long tail, long fins, and its mouth open, resembling a plane-like sculpture."
+    },
+    "shark_05": {
+        "uid": "9fc13419b7df453d8dadd1437381d390",
+        "description": "A 3D model of a blue shark with its mouth open and teeth visible."
+    },
+    "shark_06": {
+        "uid": "a08042ec0d6d492e8c2bddfe20fab855",
+        "description": "A 3D model of a blue cartoon shark with its mouth open."
+    },
+    "shark_07": {
+        "uid": "aeb86b5a9233452a841dcf1882f22547",
+        "description": "3D model of a great white shark."
+    },
+    "shark_08": {
+        "uid": "cb6c498b19cf432ea8effdd71ab6b8d3",
+        "description": "White shark 3D model in black and white."
+    },
+    "shark_09": {
+        "uid": "e37ea992fa744f79998be179a1c12e10",
+        "description": "3D model of a shark"
+    },
+    "shield_00": {
+        "uid": "023e632efc7449338e1d5c56e220cab1",
+        "description": "3D model of a wooden shield with a cross on it."
+    },
+    "shield_01": {
+        "uid": "041ee3f9d8ce453dbdc1a696431041c6",
+        "description": "A 3D model of a blue and white shield."
+    },
+    "shield_02": {
+        "uid": "0da4c58c38bd4045b102de7d3c480e6b",
+        "description": "3D model of a wooden Viking shield with rivets and medieval design."
+    },
+    "shield_03": {
+        "uid": "2241e09cc3ad40a0a6da20cd76d7baa7",
+        "description": "A 3D model of a metal shield featuring various designs, including a skull, dragon, and eagle, alongside a black door with a lock and handle."
+    },
+    "shield_04": {
+        "uid": "2eff26913e0e40ceb30558ba5256fce0",
+        "description": "3D model of a Knights of Templar metal shield with a red and white cross and a brown handle."
+    },
+    "shield_05": {
+        "uid": "33e015d4910f45b993362919a3787d0f",
+        "description": "A 3D model of an ornate, intricately designed metal shield resembling a Batman mask."
+    },
+    "shield_06": {
+        "uid": "5f6fe846894044dfb8d5fcfabcfb1ebc",
+        "description": "3D model of a wooden Viking shield"
+    },
+    "shield_07": {
+        "uid": "7fd564b3442f4e72b233b8810ac028ee",
+        "description": "3D model of a wooden shield with a metal handle."
+    },
+    "shield_08": {
+        "uid": "96e4033e6ec64c1b826f9180a34af241",
+        "description": "A 3D model of a wooden shield with a handle."
+    },
+    "shield_09": {
+        "uid": "9d5448676ce94a8c82d120630577ebcd",
+        "description": "3D model of a wooden Viking shield"
+    },
+    "shoe_00": {
+        "uid": "0b3322f349274bffb294e2004ded6ff9",
+        "description": "3D model of a beige/tan sneaker with gold accents and a strap."
+    },
+    "shoe_01": {
+        "uid": "4622e88fd9264b37997671efeb73af85",
+        "description": "A 3D model of white Crocs clogs with blue straps and holes."
+    },
+    "shoe_02": {
+        "uid": "51e39c197f6f46748b6023fc48cac396",
+        "description": "Nike Stefan Janoski and SB Dunk Low Grey/White Sneakers 3D Model"
+    },
+    "shoe_03": {
+        "uid": "9b5caa6314774a91be5045b91066a709",
+        "description": "White and black Nike Air Presto sneaker 3D model."
+    },
+    "shoe_04": {
+        "uid": "9bdbb414efb94a1e9eefcd07d4b0fea1",
+        "description": "A white high-top leather sneaker with green laces and accents."
+    },
+    "shoe_05": {
+        "uid": "a10d3269ea37452fba09d91e97b36367",
+        "description": "A 3D model of a pink sneaker with white laces and sole."
+    },
+    "shoe_06": {
+        "uid": "b601649de568470db6e9d8d5c9c76b73",
+        "description": "Nike Air Force 1 Low 3D model, white sneaker with blood on it and white sole."
+    },
+    "shoe_07": {
+        "uid": "bfce6e6485744250b75615b3d97c88dc",
+        "description": "Adidas Stan Smith White 3D Model"
+    },
+    "shoe_08": {
+        "uid": "d6951661c1e445d8a1d00b7d38d86030",
+        "description": "Nike Air Force 1 Low - White/Light Blue 3D Model"
+    },
+    "shoe_09": {
+        "uid": "fa85d54cabeb419685924b853c7032e7",
+        "description": "3D model of Old Skool Vans black and white shoes"
+    },
+    "skateboard_00": {
+        "uid": "0f7b8ea366654674b217a743959798e7",
+        "description": "A skateboard."
+    },
+    "skateboard_01": {
+        "uid": "26a47537deeb43fd993118e9bdffef75",
+        "description": "A 3D model of a skateboard with wheels."
+    },
+    "skateboard_02": {
+        "uid": "2a8d375f2aef42259c6b6814a3ab72a6",
+        "description": "A skateboard with blue wheels."
+    },
+    "skateboard_03": {
+        "uid": "3fb68260423d4a31bfecbbfb718d504f",
+        "description": "A skateboard with wheels."
+    },
+    "skateboard_04": {
+        "uid": "59e9c369ae7148378c496aef09fa7cf1",
+        "description": "3D model of a skateboard with red wheels"
+    },
+    "skateboard_05": {
+        "uid": "779672af032141b1ba56ac0586f941fe",
+        "description": "A skateboard with red wheels."
+    },
+    "skateboard_06": {
+        "uid": "a3cd551df1d2452691bec6c8476184f4",
+        "description": "White wooden skateboard"
+    },
+    "skateboard_07": {
+        "uid": "ab830e111ec24bdbbde41269d748766c",
+        "description": "White skateboard with wheels resembling a surfboard."
+    },
+    "skateboard_08": {
+        "uid": "c60420a840134dc9b4646f43911906d1",
+        "description": "A skateboard with red wheels."
+    },
+    "skateboard_09": {
+        "uid": "eadf631145d24b7789b0fc82648833f2",
+        "description": "A skateboard with red wheels and a red stripe."
+    },
+    "snowman_00": {
+        "uid": "035c9c52469e476f9448b197e295f70d",
+        "description": "3D model of a yellow snowman with a gold hat."
+    },
+    "snowman_01": {
+        "uid": "31a60af75d2c4ca3bfa9898007cfffaf",
+        "description": "A 3D model of a snowman wearing a top hat and scarf."
+    },
+    "snowman_02": {
+        "uid": "6d429f534a554dcd881d4157078c3e47",
+        "description": "Snowman wearing a top hat."
+    },
+    "snowman_03": {
+        "uid": "95b6485c508c4b068d683dda16a33252",
+        "description": "A 3D model of a snowman wearing a Santa hat."
+    },
+    "snowman_04": {
+        "uid": "a631ab27f32949e6a8f2ed94d040b9eb",
+        "description": "A snowman wearing a top hat and scarf."
+    },
+    "snowman_05": {
+        "uid": "ac0f972547d344ff89618ab3c6e3818b",
+        "description": "A 3D model of a snowman wearing a blue hat."
+    },
+    "snowman_06": {
+        "uid": "c6a6636379904d6eaa68083a83c39694",
+        "description": "A 3D snowman with a top hat."
+    },
+    "snowman_07": {
+        "uid": "d43841f7163542e48ffe6cbd02c072e9",
+        "description": "A 3D model of a snowman with a red top hat."
+    },
+    "snowman_08": {
+        "uid": "ebfd117310e944189fac6ed724fd5763",
+        "description": "A 3D snowman wearing a blue hat and scarf, with a stick."
+    },
+    "snowman_09": {
+        "uid": "f0478a8bb6b4419886c2817001509c42",
+        "description": "A 3D snowman wearing a top hat."
+    },
+    "soccer_ball_00": {
+        "uid": "09b8055a63cf45b794cbf53c1b35c2fe",
+        "description": "Two soccer balls."
+    },
+    "soccer_ball_01": {
+        "uid": "18e7e719b43f463791181ffa7f48ec78",
+        "description": "Two 3D soccer ball models, compatible with 3ds Max, C4D, Maya, Blender, and other software."
+    },
+    "soccer_ball_02": {
+        "uid": "3ceae2eee6264843a77aaaf298134744",
+        "description": "Soccer ball"
+    },
+    "soccer_ball_03": {
+        "uid": "567058de5d2c47df8b77e9c45a5a95f6",
+        "description": "A white and black soccer ball."
+    },
+    "soccer_ball_04": {
+        "uid": "69e4410cd50d4bd1bbd83cdbe442dc06",
+        "description": "Blue soccer ball"
+    },
+    "soccer_ball_05": {
+        "uid": "72ecd4deff5f4886adc2455581f0333d",
+        "description": "Soccer ball"
+    },
+    "soccer_ball_06": {
+        "uid": "a1b271479687423da1ac060c4afd6d78",
+        "description": "A pink and blue soccer ball."
+    },
+    "soccer_ball_07": {
+        "uid": "a9ed84b06e6549e486aa585129a1cf48",
+        "description": "Black and white soccer ball."
+    },
+    "soccer_ball_08": {
+        "uid": "e38b0fd0db924e948160d611ce5cd93c",
+        "description": "A 3D model of an old, cracked white and gray soccer ball."
+    },
+    "soccer_ball_09": {
+        "uid": "f74b285829544e37bf463aee9ae0c1cc",
+        "description": "Blue and white soccer ball."
+    },
+    "sofa_00": {
+        "uid": "03cba69a2c3140f7abc013d42d455fba",
+        "description": "3D rendering of a white sofa and ottoman with wheels."
+    },
+    "sofa_01": {
+        "uid": "072d0468bb97447ab1ca7e3edea25f1f",
+        "description": "3D model of a brown leather couch"
+    },
+    "sofa_02": {
+        "uid": "0eb6c94aa40c41b480cf35de229e8e88",
+        "description": "3D model of a white sectional sofa with pillows and a table on it."
+    },
+    "sofa_03": {
+        "uid": "38c5b18bb54e490fb9c7146410ed61a5",
+        "description": "3D model of a white Chesterfield sofa with buttons, a white sink, a white bathtub, and a white ceiling light with the word \"fee\" on it."
+    },
+    "sofa_04": {
+        "uid": "42da0122f2134a189767d0911b401c1c",
+        "description": "3D rendering of a blue sofa with wooden legs."
+    },
+    "sofa_05": {
+        "uid": "4c9549644f6b477d991f16a26e442935",
+        "description": "A 3D rendering of a light blue sofa with tufted cushions, gold legs, and white pillows."
+    },
+    "sofa_06": {
+        "uid": "9c242421a7c1447f941f72b57e7473e5",
+        "description": "A 3D model of a black sofa with a grey cover and blanket."
+    },
+    "sofa_07": {
+        "uid": "a0d66f10a850469c9cb04c3cecc62a05",
+        "description": "3D model of a green and white polka dot sofa"
+    },
+    "sofa_08": {
+        "uid": "a4c4e43e911e4a7fa0cc2617a0697eef",
+        "description": "A 3D model featuring a blue and white bench, white and pink shelves, a table with blue and pink legs, and a couch with blue and pink cushions."
+    },
+    "sofa_09": {
+        "uid": "a82cf2f38ca549ed87982f422b9fb092",
+        "description": "3D rendering of a white couch with a hanging shelf above it."
+    },
+    "spectacles_00": {
+        "uid": "102bf0ddb48245a58e494000f3654cb2",
+        "description": "3D printed pixel heart eyeglasses with pink and purple handles."
+    },
+    "spectacles_01": {
+        "uid": "1bb41621fac1403e9c11aa45b349ec72",
+        "description": "A pair of black sunglasses."
+    },
+    "spectacles_02": {
+        "uid": "27114c32e8364a65893c9746fc1aa48a",
+        "description": "A pair of yellow cat-eye eyeglasses."
+    },
+    "spectacles_03": {
+        "uid": "294e2950fae04576bfc0adc240701923",
+        "description": "A pair of yellow eyeglasses."
+    },
+    "spectacles_04": {
+        "uid": "4330849036a744b5a9c0876c049c62b8",
+        "description": "A pair of white-framed glasses."
+    },
+    "spectacles_05": {
+        "uid": "4fd6943807374eadbe1f066f22c9c7aa",
+        "description": "A pair of glasses with yellow frames."
+    },
+    "spectacles_06": {
+        "uid": "a4c0eaf66bf748c5a2a1d6bb595672c7",
+        "description": "Harry Potter Glasses Royalty-Free 3D Model"
+    },
+    "spectacles_07": {
+        "uid": "bab93acb3990415783b9b6d9b2e178ba",
+        "description": "Ray-Ban Wayfarer black sunglasses 3D model."
+    },
+    "spectacles_08": {
+        "uid": "c3603763da7c41359f58f7943bf06ab6",
+        "description": "A 3D model of a pair of glasses with blue frames."
+    },
+    "spectacles_09": {
+        "uid": "ebd73da0dd6f45e49a3c93212e5daf45",
+        "description": "3D model of a pair of glasses with green and black accents."
+    },
+    "spider_00": {
+        "uid": "002122c2db5a48b383598fec645cb459",
+        "description": "A white spider with black legs wearing a top hat and glasses."
+    },
+    "spider_01": {
+        "uid": "214dd5630fd74a99a98511e756ef8dda",
+        "description": "3D model of a brown beetle"
+    },
+    "spider_02": {
+        "uid": "40ba61f23bf04e06b8a94fa55f96c1ad",
+        "description": "3D model of a black widow spider with red eyes."
+    },
+    "spider_03": {
+        "uid": "434371f2ff7e40ad8180754fc17ebcde",
+        "description": "A 3D model of a spider with legs."
+    },
+    "spider_04": {
+        "uid": "622202ab925f4cbaab8269237e2a3480",
+        "description": "A 3D spider model with long legs."
+    },
+    "spider_05": {
+        "uid": "66de78786f44425bb648c3c4491e66ae",
+        "description": "A low poly 3D model of a spider with yellow legs."
+    },
+    "spider_06": {
+        "uid": "78820e205046436aaa0c20c52c381609",
+        "description": "A 3D model of a black spider with white stripes and a pair of scissors."
+    },
+    "spider_07": {
+        "uid": "91a4c332a5c34f7da8a932dc6d9fbf0e",
+        "description": "A 3D model of a spider-like bug with red eyes, long legs, two legs, a knife, scissors, and claws."
+    },
+    "spider_08": {
+        "uid": "c6cfc7e68cf14dfe8f5ac3bf7ed47fec",
+        "description": "3D model of a spider."
+    },
+    "spider_09": {
+        "uid": "f2a5059dad8f41d08a813c864ca7c2d7",
+        "description": "A 3D model of a smiling red, yellow, and black spider with a smiley face."
+    },
+    "sword_00": {
+        "uid": "1df1993ed316495da5e6c64dd863e4bb",
+        "description": "3D model of a sword."
+    },
+    "sword_01": {
+        "uid": "32d0d19ab6e3411db0249a4132f5ef05",
+        "description": "A 3D cartoon sword with a red and yellow handle."
+    },
+    "sword_02": {
+        "uid": "5b26f8d60eec4e579e89cc559fa9f2e1",
+        "description": "3D model of a blue and purple Zelda sword with a blue handle."
+    },
+    "sword_03": {
+        "uid": "7a7dcb81f469455cae494c7216e08017",
+        "description": "3D model of a sword."
+    },
+    "sword_04": {
+        "uid": "814a3d5f916e4439aa4bac2aa7b812ec",
+        "description": "3D model of a sword."
+    },
+    "sword_05": {
+        "uid": "b02f0340d5e54512a41ea4e93240ada6",
+        "description": "A 3D model of a sword with a green, blue, and white blade."
+    },
+    "sword_06": {
+        "uid": "b0f168b52efd4644a34ab13365ac4a26",
+        "description": "3D model of a sword."
+    },
+    "sword_07": {
+        "uid": "c0c868aa01c04a08a525073dbb1420da",
+        "description": "3D model of a sword with a blue blade and handle."
+    },
+    "sword_08": {
+        "uid": "f2b54451866748f2a7c7d9afe2f2bee5",
+        "description": "3D model of a silver sword."
+    },
+    "sword_09": {
+        "uid": "fb0291f77665442fb5e54473a8d12b3f",
+        "description": "A sword with a yellow handle, yellow tip, and long shaft."
+    },
+    "table_00": {
+        "uid": "21c67e417ffe49c79c358b43df690a15",
+        "description": "A 3D model of a brown wooden table with three legs."
+    },
+    "table_01": {
+        "uid": "2568b63db4c9410a863efe11467e6851",
+        "description": "3D rendering of a white table with three legs and cylindrical features."
+    },
+    "table_02": {
+        "uid": "53bf56e597114c22bafed8c41c1fdc4a",
+        "description": "A 3D rendering of a small white table with three legs."
+    },
+    "table_03": {
+        "uid": "5a9c7c1899c84a8e87fb3930132cf478",
+        "description": "3D rendering of a modern console table with a wooden base and marble top."
+    },
+    "table_04": {
+        "uid": "5c2496c27fdb42d09cd2d4939cf12b03",
+        "description": "A 3D model of a yellow table with three legs."
+    },
+    "table_05": {
+        "uid": "6d459af223cb46c8a78923a19538c5c0",
+        "description": "A 3D model of a wooden table with two legs."
+    },
+    "table_06": {
+        "uid": "72ea9b9996e147ef8400a213e9346c5d",
+        "description": "3D rendering of a white folding table with two legs and a ceiling light fixture."
+    },
+    "table_07": {
+        "uid": "9151c4e13c9944cbb35f4e4ad55c1fd7",
+        "description": "3D rendering of a small white table"
+    },
+    "table_08": {
+        "uid": "cee1570d79fb4114a8709fc1d08a05ac",
+        "description": "A 3D rendering of a small wooden table with metal legs and four legs."
+    },
+    "table_09": {
+        "uid": "d149e60429574bacab6815132824c59b",
+        "description": "3D model of a small round table with three legs."
+    },
+    "teddy_bear_00": {
+        "uid": "1e488ff902e34e62affd7961c88293bb",
+        "description": "3D teddy bear wearing glasses and holding an ice cream cone."
+    },
+    "teddy_bear_01": {
+        "uid": "23d22ba864ab495f82ea6efba5d3d1ee",
+        "description": "A 3D model of a brown and white teddy bear."
+    },
+    "teddy_bear_02": {
+        "uid": "459ce5b99da947438d3ea11d7c0d4225",
+        "description": "A large 3D-rendered brown teddy bear."
+    },
+    "teddy_bear_03": {
+        "uid": "58170dffb40e49c4a4b8217fad76f5ed",
+        "description": "3D model of a white teddy bear"
+    },
+    "teddy_bear_04": {
+        "uid": "5df89d991d3d469b9ee6d1f35ffaf554",
+        "description": "A 3D model of a brown teddy bear."
+    },
+    "teddy_bear_05": {
+        "uid": "6f3d3a18535948908f7abe9b33ef05a0",
+        "description": "Pink teddy bear"
+    },
+    "teddy_bear_06": {
+        "uid": "84ba3a534a4840c4a6e33e288093e042",
+        "description": "3D model of a white teddy bear."
+    },
+    "teddy_bear_07": {
+        "uid": "a1c7dbd554f04417ac93f59f9e6d296b",
+        "description": "3D model of a teddy bear with a pink bow, holding a heart."
+    },
+    "teddy_bear_08": {
+        "uid": "c752c932af1a477a8fd37f6bb0ec5f64",
+        "description": "A 3D model of a brown teddy bear."
+    },
+    "teddy_bear_09": {
+        "uid": "f6a6667cd63240639a4ea9598ca4d8fc",
+        "description": "3D model of a teddy bear wearing a hat."
+    },
+    "telephone_00": {
+        "uid": "0f074fef547f433586d9ae6f970285ec",
+        "description": "3D model of a vintage corded telephone."
+    },
+    "telephone_01": {
+        "uid": "46da0e25122b456b9f52930e58ce4bf9",
+        "description": "A vintage red telephone with gold accents and a cord."
+    },
+    "telephone_02": {
+        "uid": "6e9bbc6183be4a2793d642d2cfba3cde",
+        "description": "A 3D red telephone with a yellow dial on top."
+    },
+    "telephone_03": {
+        "uid": "776462432cff4d6f89ec50d6a3342eee",
+        "description": "A 3D model of an old telephone with a cord attached."
+    },
+    "telephone_04": {
+        "uid": "b812224a5c354de5854c82547e1dc4ca",
+        "description": "Black corded telephone."
+    },
+    "telephone_05": {
+        "uid": "bc379c569b8e4c34a1f9e64e626fe66c",
+        "description": "Yellow rotary telephone"
+    },
+    "telephone_06": {
+        "uid": "c0ae5edb08064ce4bcd1c7d88e68b30b",
+        "description": "3D model of a green telephone."
+    },
+    "telephone_07": {
+        "uid": "ca121fb9b7454fc18769d0d7b6e1781e",
+        "description": "A 3D model of an old-fashioned telephone with a coiled cord."
+    },
+    "telephone_08": {
+        "uid": "d7efe01f8f51469c821407c9e248c519",
+        "description": "White wall-mounted telephone with attached cord."
+    },
+    "telephone_09": {
+        "uid": "eaa0a0cbce964b2099b955f5ea241eee",
+        "description": "A white corded telephone."
+    },
+    "television_set_00": {
+        "uid": "1d95c634ec8f4a30ab43363b4de346a2",
+        "description": "A red TV with two antennas on top."
+    },
+    "television_set_01": {
+        "uid": "2709ee3458884f8ea5d50630df12323b",
+        "description": "A vintage television and 3D models of a microwave oven and small wood stove, all with wooden cabinets."
+    },
+    "television_set_02": {
+        "uid": "4f72eca722a740408258920b2449059a",
+        "description": "A 3D model of an old TV set with a cable on a stand."
+    },
+    "television_set_03": {
+        "uid": "560184ebf3f3449fb195f1fd829d25f5",
+        "description": "A 3D model of a small, old, brown TV set with a screen, resembling a radio."
+    },
+    "television_set_04": {
+        "uid": "6099a956fb4c4a21b2957bc2e4874d55",
+        "description": "A vintage wooden TV with a green screen, accompanied by a wall-mounted speaker and a small wooden box."
+    },
+    "television_set_05": {
+        "uid": "8b8b6a5ba71741e39934826d268a09af",
+        "description": "A 3D model of a yellow, old TV set with smoke coming out of it."
+    },
+    "television_set_06": {
+        "uid": "94d6405522de4c2895912c0a45332056",
+        "description": "A 3D model of a pixelated, old-style TV with a TV antenna and colorful bars on the screen."
+    },
+    "television_set_07": {
+        "uid": "ba34ae6d766048a18b234580a515fad0",
+        "description": "A 3D model of a small white old TV with two antennas on top."
+    },
+    "television_set_08": {
+        "uid": "c8ca01f1ab5c42728480328d02b0b2f9",
+        "description": "A 3D model of a blue toy TV with two sticks and a handle."
+    },
+    "television_set_09": {
+        "uid": "e64166631f324ac5abcacad21c1bf033",
+        "description": "A 3D model of a small, old-fashioned pink television set with a color screen and black antenna."
+    },
+    "toilet_00": {
+        "uid": "24d1b493899d407780140688abae19bc",
+        "description": "White toilet with open lid and blue accent, 3D rendering."
+    },
+    "toilet_01": {
+        "uid": "531e32a371004849bd72a507aaf81643",
+        "description": "Rusted Toilet 3D Model by 3Dcomics"
+    },
+    "toilet_02": {
+        "uid": "5d8bcbdfcd384ab58a9cf9936396b130",
+        "description": "White toilet with a toilet paper holder."
+    },
+    "toilet_03": {
+        "uid": "679e5dac6f734f659c96222cf5ea5a02",
+        "description": "White open-lid toilet (3D rendering)"
+    },
+    "toilet_04": {
+        "uid": "825f8e31ba0e4864ad4b902aab31af22",
+        "description": "White 3D toilet model with a toilet paper holder."
+    },
+    "toilet_05": {
+        "uid": "a2058b6bbbbf46d7bf4811785febb669",
+        "description": "White toilet with open lid and seat."
+    },
+    "toilet_06": {
+        "uid": "d8c00a03f1f540d398d8a4dbb5dbb996",
+        "description": "White 3D toilet model"
+    },
+    "toilet_07": {
+        "uid": "db46661c8a714905853e38ca88e0e971",
+        "description": "White toilet with open lid."
+    },
+    "toilet_08": {
+        "uid": "e9edbd0c027c4f648e1405df96670cc1",
+        "description": "A 3D model of a toilet with a lid."
+    },
+    "toilet_09": {
+        "uid": "fc93c3f26afe48b9a94c009cd8de9aa1",
+        "description": "White toilet with lid and seat, 3D model."
+    },
+    "trophy_cup_00": {
+        "uid": "240e8fbfba5b48148ae6bda2a3ba04ba",
+        "description": "A gold trophy cup with the words \"xoxo\" and \"PlayStation\" on it."
+    },
+    "trophy_cup_01": {
+        "uid": "2a79482cf73f453381dc73a3908046ad",
+        "description": "A silver trophy"
+    },
+    "trophy_cup_02": {
+        "uid": "414589ca777643ff9037857760f9ea92",
+        "description": "3D model of a white cup with a lid, handle, and saucer, resembling a trophy."
+    },
+    "trophy_cup_03": {
+        "uid": "419396578e9f4165b38252ddec0b77c9",
+        "description": "A silver cup with white accents featuring two dragons."
+    },
+    "trophy_cup_04": {
+        "uid": "4b4340648ad5446e961e1907b952c044",
+        "description": "Gold goblet 3D model with red gems."
+    },
+    "trophy_cup_05": {
+        "uid": "519e7994b912402cba806825e844ca07",
+        "description": "Gold wine goblet"
+    },
+    "trophy_cup_06": {
+        "uid": "5a1c06d1f04142279b9453a0113faab0",
+        "description": "Small blue 3D vase with a lid"
+    },
+    "trophy_cup_07": {
+        "uid": "8c827f533043415496fd598718dde13f",
+        "description": "A 3D model of a trophy with an orange base."
+    },
+    "trophy_cup_08": {
+        "uid": "9651174d092f476a9e86fc8bd4c2b028",
+        "description": "A gold trophy cup on a wooden and marble base."
+    },
+    "trophy_cup_09": {
+        "uid": "abeae1a319444352870151d35aa45621",
+        "description": "3D model of a djembe drum with arrows on it."
+    },
+    "vase_00": {
+        "uid": "073534d7bb5d4b90a86c44316c0f112d",
+        "description": "Large 3D clay pot model"
+    },
+    "vase_01": {
+        "uid": "2110860cb48741a098f68c6d5009e705",
+        "description": "Purple vase with a wavy design"
+    },
+    "vase_02": {
+        "uid": "42ab0a962b964b9cb42e54cfee8ea443",
+        "description": "A blue and white vase with a floral design."
+    },
+    "vase_03": {
+        "uid": "61ffc885367b4b418b6975d138d94048",
+        "description": "A 3D model of a light blue vase."
+    },
+    "vase_04": {
+        "uid": "78511525b5b34ae8ba0add4f38025c12",
+        "description": "A 3D model of a red and brown vase."
+    },
+    "vase_05": {
+        "uid": "8ef2078713b64532819fc7749fefc349",
+        "description": "A 3D model of a beige vase with a pink swirl and marble texture."
+    },
+    "vase_06": {
+        "uid": "a82fbbda824c4d62a97fc1e909c56a27",
+        "description": "Purple vase."
+    },
+    "vase_07": {
+        "uid": "ac6da28eadfb4b7cad9e4826a18b1a98",
+        "description": "3D model of a white vase"
+    },
+    "vase_08": {
+        "uid": "bc71fb6ce5cf4cb894fa373cf3b42a63",
+        "description": "Green Vase 3D Model"
+    },
+    "vase_09": {
+        "uid": "c3102c6cd57c4e60abe4ce9d0c3a41d3",
+        "description": "A large 3D terracotta clay vase."
+    },
+    "violin_00": {
+        "uid": "0162dea1b1044cd281c57af5e5fc2046",
+        "description": "3D model of a violin"
+    },
+    "violin_01": {
+        "uid": "051c3db9337c412e947887477a28bb27",
+        "description": "A violin and bow displayed together."
+    },
+    "violin_02": {
+        "uid": "42e097aebea143b69beb9276ffd1cbc2",
+        "description": "A 3D low poly model of a mandolin and guitar as musical instruments."
+    },
+    "violin_03": {
+        "uid": "52d850660e1d4358ad96b922ea75f62c",
+        "description": "A 3D model of a red cello."
+    },
+    "violin_04": {
+        "uid": "5b07b536c93849ed875a837ed8bcbd6a",
+        "description": "A wooden violin 3D model."
+    },
+    "violin_05": {
+        "uid": "6b00b5930b0f4516964d527ef0731386",
+        "description": "An old wooden violin with a rusty metal handle on a gray background."
+    },
+    "violin_06": {
+        "uid": "74d64b35a3dd4c3ba7b6deb35685ed8b",
+        "description": "Wooden violin 3D model"
+    },
+    "violin_07": {
+        "uid": "7f4a2e4d5d434450a67770f03496e083",
+        "description": "A violin."
+    },
+    "violin_08": {
+        "uid": "ab3ea86bb5f945c89889c1d333f55c0d",
+        "description": "A wooden violin."
+    },
+    "violin_09": {
+        "uid": "c618da74c8604192bfdcd63c91d39822",
+        "description": "3D model of a violin and bow."
+    },
+    "watch_00": {
+        "uid": "1c3bd783a52d4e62a472113f16475b94",
+        "description": "A 3D model of a small, colorful watch with a patterned bracelet."
+    },
+    "watch_01": {
+        "uid": "2f47ab99b8da45e2b343e28de4945696",
+        "description": "3D Swatch watch model with a grey and white patterned leather strap and silver buckle."
+    },
+    "watch_02": {
+        "uid": "55f92a51ee8743cf918f590e7add8024",
+        "description": "A gold watch with a bear logo and black dial."
+    },
+    "watch_03": {
+        "uid": "607bbb98277d4259a20715a4750e52f0",
+        "description": "A 3D model of a silver Casio digital watch with a bracelet band."
+    },
+    "watch_04": {
+        "uid": "625b0a764d0f40d48f3140acdd644823",
+        "description": "A watch with a blue and black dial, black and white face, grey strap, and metal band."
+    },
+    "watch_05": {
+        "uid": "634df929cd7943368142f17c44f34f89",
+        "description": "A black and silver watch with a bear logo, black strap, and black and white face."
+    },
+    "watch_06": {
+        "uid": "77bdbb2066e04fc6ae32b244191ec8f3",
+        "description": "A red watch with a black and silver animal logo."
+    },
+    "watch_07": {
+        "uid": "7e65934fffe7473c8b13fdb486a56d52",
+        "description": "3D model of a silver watch"
+    },
+    "watch_08": {
+        "uid": "be866b8f03a14965981f5a74dc1f8df0",
+        "description": "A 3D model of a gold and silver Swatch watch with diamonds and a gold and white bracelet."
+    },
+    "watch_09": {
+        "uid": "c120681677344b70b139c76c75fdeee2",
+        "description": "A 3D model of a watch with a brown leather strap and a white face."
+    },
+    "wineglass_00": {
+        "uid": "018dab01b31949318128504332f649d9",
+        "description": "3D rendering of a white wine glass."
+    },
+    "wineglass_01": {
+        "uid": "20f5a6ebac4a4173a63cb315b280b284",
+        "description": "A wine glass."
+    },
+    "wineglass_02": {
+        "uid": "3db3beb46cfe43f489866f9d9b6897e2",
+        "description": "White wine glass"
+    },
+    "wineglass_03": {
+        "uid": "41bcb59567ff4d70a27d45264be06aae",
+        "description": "A 3D model of a silver wine glass."
+    },
+    "wineglass_04": {
+        "uid": "68d5d71da69349c4ad785594bddd2110",
+        "description": "Blue wine glass 3D model"
+    },
+    "wineglass_05": {
+        "uid": "93b709d60faf47edb4ff4bd238705c7e",
+        "description": "White wine glass"
+    },
+    "wineglass_06": {
+        "uid": "a362168e6de6429785c4eab863b6f516",
+        "description": "A 3D pink wine glass with liquid."
+    },
+    "wineglass_07": {
+        "uid": "aaae2ec8372c48ddadd6bb300ed11ae2",
+        "description": "3D model of a wine glass"
+    },
+    "wineglass_08": {
+        "uid": "aec2924a4e9f44f9ad569717301e30ec",
+        "description": "White wine glass"
+    },
+    "wineglass_09": {
+        "uid": "be365d4a32184764abc4634c1280e6da",
+        "description": "3D rendering of a glass of red wine"
+    }
+}

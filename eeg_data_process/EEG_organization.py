@@ -2,15 +2,18 @@ import os
 import numpy as np
 
 def data_organization(sub='sub02'):
-    root_path = ''
+    root_path = './EEGdata/'
     npy_name_list = ['1s_250Hz.npy', '6s_100Hz.npy']
     for npy_name in npy_name_list:
         save_arr_name = f"{root_path}{sub}/process_data_{npy_name}"
         label_arr_name = f"{root_path}{sub}/name_label.npy"
+
         if os.path.exists(save_arr_name):
             data_array = np.load(save_arr_name)
             label_arr = np.load(label_arr_name)
         else:
+            print(f"save_arr_name {save_arr_name} not exist")
+
             print('error')
             return
         print(sub)
@@ -41,4 +44,4 @@ def data_organization(sub='sub02'):
         np.save(f"{root_path}{sub}/{sub}_test_data_{npy_name}", test_data)
 
 if __name__ == '__main__':
-    data_organization(sub='sub03')
+    data_organization(sub='sub02')

@@ -1,0 +1,16 @@
+*.zip
+*.log
+
+*.npy
+*.glb
+*.ply
+
+__pycache__/
+*.pth
+*.mp4
+*.pyc
+*.xlsx
+*.txt
+*.png
+
+PointGeneration/__pycache__*

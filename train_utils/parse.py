@@ -36,6 +36,9 @@ def parse_args():
     parser.add_argument('--checkpoint_resume', type=str, default='')
     parser.add_argument('--clip_grad_norm', type=float, default=50.0)
     parser.add_argument('--ply_point_path', type=str, default='')
+    # PLY selection: all (default) will output k=0..4; k selects a specific index via --ply_k; best aliases k=0
+    parser.add_argument('--ply_mode', type=str, default='all', choices=['all', 'k', 'best'])
+    parser.add_argument('--ply_k', type=int, default=0)
 
     opt = parser.parse_args()
     return opt

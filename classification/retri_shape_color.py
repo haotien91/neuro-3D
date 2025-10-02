@@ -318,6 +318,7 @@ def parse_args():
     parser.add_argument('--time_cls', type=int, default=1)
     parser.add_argument('--max_len', type=int, default=600)
     parser.add_argument('--sub', type=str, default='sub13')
+    parser.add_argument('--num_classes', type=int, default=72)  # 新增這行
     opt = parser.parse_args()
     return opt
 
@@ -344,9 +345,21 @@ def main(args, sub='sub03'):
     print(get_parameter_number(eeg_model))
     optimizer = torch.optim.AdamW(eeg_model.parameters(), lr=config['lr'], weight_decay=5e-4)#, weight_decay=5e-4
     # optimizer = torch.optim.Adam(eeg_model.parameters(), lr=config['lr'])#, weight_decay=5e-4
-    train_dataset = AllDataFeatureTwoEEG(config['data_path'], sub_list=[sub], train=True, aug_data=True)
-    # train_dataset = AllDataFeatureTwoEEG(config['data_path'], sub_list=['sub09', 'sub10', 'sub11', 'sub12', 'sub13', 'sub14'], train=True, aug_data=True)
-    test_dataset = AllDataFeatureTwoEEG(config['data_path'], sub_list=[sub], train=False)
+
+    # Charless Yu: 0927 改，測試所有 subject
+    if sub == "all":
+        # -------------------------
+        all_subjects = ['sub01', 'sub02', 'sub03', 'sub04', 'sub05', 'sub06', 'sub07', 'sub08', 'sub09', 'sub10', 'sub11', 'sub12']
+
+        train_dataset = AllDataFeatureTwoEEG(config['data_path'], sub_list=all_subjects, train=True, aug_data=True)
+        test_dataset = AllDataFeatureTwoEEG(config['data_path'], sub_list=all_subjects, train=False)
+        # -------------------------
+
+    else:
+        train_dataset = AllDataFeatureTwoEEG(config['data_path'], sub_list=[sub], train=True, aug_data=True)
+        # train_dataset = AllDataFeatureTwoEEG(config['data_path'], sub_list=['sub09', 'sub10', 'sub11', 'sub12', 'sub13', 'sub14'], train=True, aug_data=True)
+        test_dataset = AllDataFeatureTwoEEG(config['data_path'], sub_list=[sub], train=False)
+    
     print(f"train len:{train_dataset.__len__()}, test len:{test_dataset.__len__()}")
     
     txt_features_train_all = train_dataset.txt_features

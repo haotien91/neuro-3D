@@ -9,3 +9,8 @@ tqdm==4.66.2
 einops==0.8.0
 pandas==2.2.1
 matplotlib==3.8.3
+mne
+rich
+transformers
+wandb
+openpyxl

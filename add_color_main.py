@@ -53,7 +53,36 @@ def main():
 
     # test_set = CLIPPoint(args.data_path, obj_n=8, train=False)
     # train_set = CLIPPoint(args.data_path, obj_n=8, train=True)
-    dataloader_test = DataLoader(dataset=test_set, batch_size=72, num_workers=args.num_workers, shuffle=False)
+    # 支援 ply_mode：all → 原樣本數；k/best → 僅保留指定 ply_k 的樣本
+    if hasattr(test_set, 'point_data_k') and args.ply_mode in ['k', 'best']:
+        # 包裝 dataset，將 ply_k 固定為指定值，避免 5 倍樣本
+        fixed_k = 0 if args.ply_mode == 'best' else int(args.ply_k)
+        class FixKWrapper(torch.utils.data.Dataset):
+            def __init__(self, ds, k):
+                self.ds = ds
+                self.k = k
+                self.cls_num = ds.cls_num
+                self.obj_num = ds.obj_num
+                self.trails_num = 1
+                self.sub_list = ds.sub_list
+            def __len__(self):
+                return len(self.sub_list) * self.cls_num * self.obj_num * self.trails_num
+            def __getitem__(self, idx):
+                # 取原始項
+                item = self.ds[idx]
+                # 覆寫 ply_k 與 point_cloud
+                name = item['name']
+                # 解析索引
+                sub_index = 0
+                cls_index = (idx // self.trails_num) % self.cls_num
+                obj_index = (idx // self.trails_num // self.cls_num) % self.obj_num
+                if hasattr(self.ds, 'point_data_k'):
+                    item['point_cloud'] = torch.from_numpy(self.ds.point_data_k[cls_index, obj_index, self.k])
+                    item['ply_k'] = self.k
+                return item
+        dataloader_test = DataLoader(dataset=FixKWrapper(test_set, fixed_k), batch_size=72, num_workers=args.num_workers, shuffle=False)
+    else:
+        dataloader_test = DataLoader(dataset=test_set, batch_size=72, num_workers=args.num_workers, shuffle=False)
     dataloader_train = DataLoader(dataset=train_set, batch_size=args.batch_size, num_workers=args.num_workers, shuffle=True)
     total_batch_size = args.batch_size * accelerator.num_processes * accelerator.gradient_accumulation_steps
     model, optimizer, scheduler, dataloader_train, dataloader_test = accelerator.prepare(model, optimizer, scheduler, dataloader_train, dataloader_test)
@@ -201,6 +230,7 @@ def visualize(args, model, dataloader_test, accelerator, epoch_step, point_featu
             output = model(pc, eeg_data, eeg_data2, mode='sample', shape_c=point_c)
             for ii in range(0, output.shape[0]):
                 name = batch['name'][ii]
+                ply_k = int(batch.get('ply_k', torch.tensor(0))[ii].item()) if isinstance(batch.get('ply_k', 0), torch.Tensor) else batch.get('ply_k', 0)
                 # print(name, (pc[ii] - output[ii]).mean())
                 color_error_sum += math.fabs(float((pc[ii] - output[ii]).mean()))
                 all_num += 1
@@ -216,9 +246,9 @@ def visualize(args, model, dataloader_test, accelerator, epoch_step, point_featu
                     point_pred[point_pred <= 0] = 0
                     point_pred[point_pred >= 1] = 1.0
                     pcd.colors = o3d.utility.Vector3dVector(point_pred)
-                o3d.io.write_point_cloud(f"{model_save_path}/{point_path}-{name}-{num_index}.ply", pcd)
+                o3d.io.write_point_cloud(f"{model_save_path}/{point_path}-{name}-{ply_k}-{num_index}.ply", pcd)
         print('error mean:', color_error_sum / all_num)
-    color_result_record = open('/home/bingxing2/ailab/ailab_share/scxlab0036/ai4neuro-gzq21/model/point_generate/color/record-best1.txt', 'a')
+    color_result_record = open('./model/point_generate/color/record-best1.txt', 'a')
     sub = args.sub
     test_ch = args.checkpoint_resume.split('/')[-2][:2] + '-' + args.checkpoint_resume.split('/')[-1].split('-')[-1]
     mean_err = color_error_sum / all_num / 2
