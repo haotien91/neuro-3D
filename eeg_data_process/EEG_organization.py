@@ -44,4 +44,4 @@ def data_organization(sub='sub02'):
         np.save(f"{root_path}{sub}/{sub}_test_data_{npy_name}", test_data)
 
 if __name__ == '__main__':
-    data_organization(sub='sub02')
+    data_organization(sub='sub10')

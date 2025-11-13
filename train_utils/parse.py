@@ -8,7 +8,7 @@ def parse_args():
     parser.add_argument('--task', type=str, default='train')
     parser.add_argument('--pretrain_model', type=str, default='')
 
-    parser.add_argument('--max_steps', type=int, default=200000)
+    parser.add_argument('--max_steps', type=int, default=100000)
     parser.add_argument('--log_step_freq', type=int, default=10)
     parser.add_argument('--checkpoint_freq', type=int, default=20000)
     parser.add_argument('--test_freq', type=int, default=5000)
@@ -39,6 +39,20 @@ def parse_args():
     # PLY selection: all (default) will output k=0..4; k selects a specific index via --ply_k; best aliases k=0
     parser.add_argument('--ply_mode', type=str, default='all', choices=['all', 'k', 'best'])
     parser.add_argument('--ply_k', type=int, default=0)
+    
+    # EEG data configuration
+    parser.add_argument('--num_classes', type=int, default=72, help='Number of object classes to use (default: 72)')
+    parser.add_argument('--use_32_channels', action='store_true', help='Use 32-channel EEG layout instead of 64')
+    parser.add_argument('--eeg_channels', type=int, default=0, choices=[0, 22, 32, 64], help='Explicit EEG channel count override (0=auto/legacy flag)')
+
+    # Run naming
+    parser.add_argument('--run_name', type=str, default='', help='Custom run name for output directories; if empty, uses timestamp')
+
+    # Logging and tracking
+    parser.add_argument('--use_wandb', action='store_true', help='Enable Weights & Biases logging')
+    parser.add_argument('--wandb_project', type=str, default='neuro-3d', help='W&B project name')
+    parser.add_argument('--wandb_entity', type=str, default='', help='W&B entity/username (optional)')
+    parser.add_argument('--wandb_run_name', type=str, default='', help='W&B run name (defaults to run_name)')
 
     opt = parser.parse_args()
     return opt

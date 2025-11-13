@@ -41,6 +41,8 @@ class EEGTo3DDiffusionModel(ModelMixin):
         sub='sub13',
         generate_type='color',
         retri_pretrain_model='',
+        eeg_num_channels=64,
+        eeg_cls_num=72,
         **kwargs,  # projection arguments
     ):
         super().__init__(**kwargs)
@@ -67,7 +69,13 @@ class EEGTo3DDiffusionModel(ModelMixin):
             'color': 'best-color.pth',
             'shape': 'best-retri.pth'
         }        
-        self.meta_eeg_video = VideoImageEEGClassifyColor3(num_channels=64, sequence_length=600, sequence_length2=250, num_latents=1024)
+        self.meta_eeg_video = VideoImageEEGClassifyColor3(
+            num_channels=eeg_num_channels,
+            sequence_length=600,
+            sequence_length2=250,
+            num_latents=1024,
+            cls_num=eeg_cls_num
+        )
         if os.path.exists(f"{retri_pretrain_model}/{ss_dir[generate_type]}"):
             self.meta_eeg_video.load_state_dict(torch.load(f"{retri_pretrain_model}/{ss_dir[generate_type]}", map_location='cpu'))
         else:

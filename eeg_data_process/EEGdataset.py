@@ -7,13 +7,17 @@ import sys
 import open3d as o3d
 import pandas as pd
 
+from .channel_selection import CHANNEL_INDICES_64_TO_32, CHANNEL_INDICES_64_TO_22
+
 class AllDataFeatureTwoEEG(Dataset):
     
-    def __init__(self, data_path, sub_list, train=True, time_len=250, test_mean=True, aug_data=False, point_path='', num_classes=72):
+    def __init__(self, data_path, sub_list, train=True, time_len=250, test_mean=True, aug_data=False, point_path='', num_classes=72, use_32_channels=False, eeg_channels: int = 0):
         self.data_path = data_path
         
         # Charless: 10/2 新增 classes
         self.num_classes = num_classes
+        self.use_32_channels = use_32_channels
+        self.eeg_channels = eeg_channels  # 0: follow legacy flag; 64/32/22: explicit
 
         self.sub_list = sub_list
         self.train = train
@@ -94,7 +98,33 @@ class AllDataFeatureTwoEEG(Dataset):
             self.eeg_data = self.eeg_data[:, :num_classes, :, :, :, :]
             self.eeg_data2 = self.eeg_data2[:, :num_classes, :, :, :, :]
         
-        self.cls_num = num_classes  # 改這行
+        # Channel selection
+        chosen_mode = None
+        if self.eeg_channels in [22, 32, 64]:
+            chosen_mode = self.eeg_channels
+        elif use_32_channels:
+            chosen_mode = 32
+        else:
+            chosen_mode = 64
+
+        if chosen_mode == 64:
+            self.num_channels = 64
+        elif chosen_mode == 32:
+            print(f"[Dataset] Reducing from 64 to 32 channels")
+            print(f"[Dataset] Original EEG shape: {self.eeg_data.shape}")
+            self.eeg_data = self.eeg_data[:, :, :, :, CHANNEL_INDICES_64_TO_32, :]
+            self.eeg_data2 = self.eeg_data2[:, :, :, :, CHANNEL_INDICES_64_TO_32, :]
+            print(f"[Dataset] After reduction: {self.eeg_data.shape}")
+            self.num_channels = len(CHANNEL_INDICES_64_TO_32)
+        elif chosen_mode == 22:
+            print(f"[Dataset] Reducing from 64 to 22 channels")
+            print(f"[Dataset] Original EEG shape: {self.eeg_data.shape}")
+            self.eeg_data = self.eeg_data[:, :, :, :, CHANNEL_INDICES_64_TO_22, :]
+            self.eeg_data2 = self.eeg_data2[:, :, :, :, CHANNEL_INDICES_64_TO_22, :]
+            print(f"[Dataset] After reduction: {self.eeg_data.shape}")
+            self.num_channels = len(CHANNEL_INDICES_64_TO_22)
+        
+        self.cls_num = num_classes
 
         if not self.train:
             if self.test_mean:

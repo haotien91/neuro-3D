@@ -42,6 +42,8 @@ class EEGTo3DDiffusionModel(ModelMixin):
         sub='sub10',
         model_type='',
         pretrain_model='',
+        eeg_num_channels=64,
+        eeg_cls_num=72,
         **kwargs,  # projection arguments
     ):
         super().__init__(**kwargs)
@@ -61,7 +63,13 @@ class EEGTo3DDiffusionModel(ModelMixin):
         self.scheduler = self.schedulers_map['ddpm']  # this can be changed for inference
         self.in_channels = in_channels
         self.out_channels = out_channels
-        self.meta_eeg_video = VideoImageEEGClassifyColor3(num_channels=64, sequence_length=600, sequence_length2=250, num_latents=1024)
+        self.meta_eeg_video = VideoImageEEGClassifyColor3(
+            num_channels=eeg_num_channels,
+            sequence_length=600,
+            sequence_length2=250,
+            num_latents=1024,
+            cls_num=eeg_cls_num
+        )
         if os.path.exists(f"{pretrain_model}/best-color.pth"):
             print('load!')
             self.meta_eeg_video.load_state_dict(torch.load(f"{pretrain_model}/best-color.pth", map_location='cpu'))

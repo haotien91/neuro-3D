@@ -19,6 +19,7 @@ from eeg_data_process.clip_loss import ClipLoss
 import open3d as o3d
 from accelerate import DistributedDataParallelKwargs
 import math
+from eeg_data_process.channel_selection import CHANNEL_INDICES_64_TO_32, CHANNEL_INDICES_64_TO_22
 
 def get_parameter_number(model):
     total_num = sum(p.numel() for p in model.parameters())
@@ -33,8 +34,24 @@ def main():
     print(f'Current working directory: {os.getcwd()}')
     print(args)
     training_utils.set_seed(args.seed)
+    
+    # Calculate EEG channels based on args
+    if args.eeg_channels in [22, 32, 64]:
+        target = args.eeg_channels
+    elif args.use_32_channels:
+        target = 32
+    else:
+        target = 64
+    if target == 64:
+        eeg_num_channels = 64
+    elif target == 32:
+        eeg_num_channels = len(CHANNEL_INDICES_64_TO_32)
+    else:
+        eeg_num_channels = len(CHANNEL_INDICES_64_TO_22)
+    print(f'Using {eeg_num_channels} EEG channels and {args.num_classes} object classes')
     model = EEGTo3DDiffusionModel(beta_start=args.beta_start, beta_end=args.beta_end, beta_schedule=args.beta_schedule, sub=args.sub,
-            pretrain_model=f"{args.data_path}/model/retraival/{args.sub}/{args.pretrain_model}/", point_cloud_model_embed_dim=args.point_cloud_model_embed_dim, in_channels=args.in_channels, out_channels=args.out_channels, model_type=args.model_type)
+            pretrain_model=f"{args.data_path}/model/retraival/{args.sub}/{args.pretrain_model}/", point_cloud_model_embed_dim=args.point_cloud_model_embed_dim, in_channels=args.in_channels, out_channels=args.out_channels, model_type=args.model_type,
+            eeg_num_channels=eeg_num_channels, eeg_cls_num=args.num_classes)
     print(f'Parameters (total): {sum(p.numel() for p in model.parameters()):_d}')
     print(f'Parameters (train): {sum(p.numel() for p in model.parameters() if p.requires_grad):_d}')
     optimizer = training_utils.get_optimizer(args, model, accelerator)
@@ -44,8 +61,10 @@ def main():
 
     # test_set = OursEEGPoint(data_path, obj_n=10)
     # train_set = OursEEGPoint(data_path, obj_n=10)
-    train_set = AllDataFeatureTwoEEG(args.data_path, sub_list=[args.sub], train=True, aug_data=True)
-    test_set = AllDataFeatureTwoEEG(args.data_path, sub_list=[args.sub], train=False, point_path=args.ply_point_path)
+    train_set = AllDataFeatureTwoEEG(args.data_path, sub_list=[args.sub], train=True, aug_data=True,
+                                     num_classes=args.num_classes, use_32_channels=args.use_32_channels)
+    test_set = AllDataFeatureTwoEEG(args.data_path, sub_list=[args.sub], train=False, point_path=args.ply_point_path,
+                                    num_classes=args.num_classes, use_32_channels=args.use_32_channels)
     point_features_train_all = train_set.color_point_features[:, 0].float()
     video_features_train_all = train_set.color_video_features[:, 0].float()
     point_features_test_all = test_set.color_point_features[:, 0].float()
@@ -113,7 +132,9 @@ def main():
     ss += f'    Max training steps = {args.max_steps}\n'
     ss += f'    Training state = {train_state}\n'
     # if accelerator.is_main_process:
-    model_save_path = args.data_path + args.model_save_path + args.generation_type + '/' + args.sub + '/' + args.model_type + datetime.datetime.now().strftime("%Y-%m-%d--%H-%M-%S")
+    _ts = datetime.datetime.now().strftime("%Y-%m-%d--%H-%M-%S")
+    run_name = args.run_name if getattr(args, 'run_name', '') else _ts
+    model_save_path = args.data_path + args.model_save_path + args.generation_type + '/' + args.sub + '/' + run_name
     os.makedirs(model_save_path, exist_ok=True)
     print(model_save_path)
     log_info_txt = open(model_save_path + '/log.txt', 'w')

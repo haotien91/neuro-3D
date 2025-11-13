@@ -13,4 +13,13 @@ __pycache__/
 *.txt
 *.png
 
+*.pdf
+*.md
+*.wandb
+*.json
+*.csv
+latest-run
+*.yaml
+*wandb*
+
 PointGeneration/__pycache__*
