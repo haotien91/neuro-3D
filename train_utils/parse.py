@@ -36,6 +36,13 @@ def parse_args():
     parser.add_argument('--checkpoint_resume', type=str, default='')
     parser.add_argument('--clip_grad_norm', type=float, default=50.0)
     parser.add_argument('--ply_point_path', type=str, default='')
+    parser.add_argument(
+        '--condition_mode',
+        type=str,
+        default='normal',
+        choices=['normal', 'zero', 'random'],
+        help='choose how EEG features condition the diffusion model'
+    )
 
     opt = parser.parse_args()
     return opt

@@ -67,7 +67,7 @@ def main():
         video_acc = retrieval_test(args, model, dataloader_test, point_features_test_all, video_features_test_all)
         print(video_acc)
         # import pdb;pdb.set_trace()
-        visualize(args, model, dataloader_test, accelerator, train_state.step, point_features_test_all, video_features_test_all, model_save_path, infer_steps=1000, num=5)
+        visualize(args, model, dataloader_test, accelerator, train_state.step, point_features_test_all, video_features_test_all, model_save_path, infer_steps=1000, num=1)
         return 
     video_acc = retrieval_test(args, model, dataloader_test, point_features_test_all, video_features_test_all)
     print(video_acc)
@@ -102,6 +102,18 @@ def main():
                 pc = batch['point_cloud'].float()[:, :, :3]
                 eeg_data = batch['eeg_data'].float()
                 eeg_data2 = batch['eeg_data2'].float()
+                
+
+                # ======== CONDITION MODE PATCH ========
+                if args.condition_mode == 'zero':
+                    eeg_data = torch.zeros_like(eeg_data)
+                    eeg_data2 = torch.zeros_like(eeg_data2)
+
+                elif args.condition_mode == 'random':
+                    eeg_data = torch.randn_like(eeg_data)
+                    eeg_data2 = torch.randn_like(eeg_data2)
+                # ======================================
+                
                 point_features, video_features = batch['color_point_fea'].float(), batch['color_video_fea'].float()
                 labels = batch['cls_label']
             elif args.generation_type == 'color':
@@ -177,11 +189,23 @@ def visualize(args, model, dataloader_test, accelerator, epoch_step, point_featu
         time_b = time.time()
         video_acc_count_all, total_all = 0, 0
         for batch_idx, batch in enumerate(dataloader_test):
+            print(f"[Visualize] batch {batch_idx+1}/{len(dataloader_test)}")
             if args.generation_type == 'shape':
                 point_c = None
                 pc = batch['point_cloud'].float()[:, :, :3]
                 eeg_data = batch['eeg_data'].float()
                 eeg_data2 = batch['eeg_data2'].float()
+
+                # ======== CONDITION MODE PATCH ========
+                if args.condition_mode == 'zero':
+                    eeg_data = torch.zeros_like(eeg_data)
+                    eeg_data2 = torch.zeros_like(eeg_data2)
+
+                elif args.condition_mode == 'random':
+                    eeg_data = torch.randn_like(eeg_data)
+                    eeg_data2 = torch.randn_like(eeg_data2)
+                # ======================================
+
                 point_features, video_features = batch['color_point_fea'].float(), batch['color_video_fea'].float()
                 labels = batch['cls_label']
             elif args.generation_type == 'color':
@@ -197,7 +221,9 @@ def visualize(args, model, dataloader_test, accelerator, epoch_step, point_featu
             fea_list = {'point_features': point_features, 'video_features': video_features,
             'point_features_all':point_features_test_all, 'video_features_all':video_features_test_all}
             output, (video_acc_count, total, acc_list) = model(pc, eeg_data, eeg_data2, mode='sample', shape_c=point_c, fea_list=fea_list, labels=labels,
-                                                                    return_sample_every_n_steps=-1, num_inference_steps=infer_steps, disable_tqdm=(not accelerator.is_main_process))
+                                                                    return_sample_every_n_steps=-1, num_inference_steps=infer_steps, 
+                                                                    disable_tqdm=False)
+                                                                    # disable_tqdm=(not accelerator.is_main_process))
             video_acc_count_all += video_acc_count
             total_all += total
             for ii in range(0, output.shape[0]):
@@ -231,6 +257,17 @@ def retrieval_test(args, model, dataloader_test, point_features_test_all, video_
             pc = batch['point_cloud'].float()[:, :, :3]
             eeg_data = batch['eeg_data'].float()
             eeg_data2 = batch['eeg_data2'].float()
+
+            # ======== CONDITION MODE PATCH ========
+            if args.condition_mode == 'zero':
+                eeg_data = torch.zeros_like(eeg_data)
+                eeg_data2 = torch.zeros_like(eeg_data2)
+
+            elif args.condition_mode == 'random':
+                eeg_data = torch.randn_like(eeg_data)
+                eeg_data2 = torch.randn_like(eeg_data2)
+            # ======================================
+            
             point_features, video_features = batch['color_point_fea'].float(), batch['color_video_fea'].float()
             labels = batch['cls_label']
         elif args.generation_type == 'color':
