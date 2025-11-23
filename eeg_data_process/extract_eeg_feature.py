@@ -28,18 +28,50 @@ class PositionalEncoding(nn.Module):
         x = x + pe
         return x
 
+class ManualTransformerEncoderLayer(nn.Module):
+    def __init__(self, d_model, nhead, dim_feedforward=2048, dropout=0.1):
+        super().__init__()
+        self.self_attn = nn.MultiheadAttention(d_model, nhead, dropout=dropout)
+        self.linear1 = nn.Linear(d_model, dim_feedforward)
+        self.dropout = nn.Dropout(dropout)
+        self.linear2 = nn.Linear(dim_feedforward, d_model)
+        self.norm1 = nn.LayerNorm(d_model)
+        self.norm2 = nn.LayerNorm(d_model)
+        self.dropout1 = nn.Dropout(dropout)
+        self.dropout2 = nn.Dropout(dropout)
+
+    def forward(self, src):
+        # src: [L, B, D]
+        src2, weights = self.self_attn(src, src, src, need_weights=True)
+        src = src + self.dropout1(src2)
+        src = self.norm1(src)
+        src2 = self.linear2(self.dropout(F.relu(self.linear1(src))))
+        src = src + self.dropout2(src2)
+        src = self.norm2(src)
+        return src, weights
+
+class EncoderWrapper(nn.Module):
+    def __init__(self, d_model, nhead):
+        super().__init__()
+        # Use ModuleList to match 'layers.0' key structure of nn.TransformerEncoder
+        self.layers = nn.ModuleList([ManualTransformerEncoderLayer(d_model, nhead)])
+    
+    def forward(self, src):
+        return self.layers[0](src)
+
 class EEGAttention(nn.Module): ###时间维度上的attention
     def __init__(self, channel, d_model, nhead, max_len=600):
         super(EEGAttention, self).__init__()
         self.pos_encoder = PositionalEncoding(d_model, max_len=max_len)
-        self.encoder_layer = nn.TransformerEncoderLayer(d_model=d_model, nhead=nhead)
-        self.transformer_encoder = nn.TransformerEncoder(self.encoder_layer, num_layers=1)
+        # Restore encoder_layer to satisfy strict state_dict loading (it absorbs the unused keys)
+        self.encoder_layer = ManualTransformerEncoderLayer(d_model, nhead)
+        self.transformer_encoder = EncoderWrapper(d_model, nhead)
 
     def forward(self, src):
         src = src.permute(2, 0, 1)  # Change shape to [time_length, batch_size, channel]
         src = self.pos_encoder(src)
-        output = self.transformer_encoder(src)
-        return output.permute(1, 2, 0)  # Change shape back to [batch_size, channel, time_length]
+        output, weights = self.transformer_encoder(src)
+        return output.permute(1, 2, 0), weights  # Change shape back to [batch_size, channel, time_length]
 
 class ConvBlock(nn.Module):
     def __init__(self, num_channels, num_features):
@@ -144,9 +176,9 @@ class VideoImageEEGClassifyColor3(nn.Module):
         
     def forward(self, x, x2):
         # import pdb;pdb.set_trace()
-        dyn = self.attention_model(x)
+        dyn, dyn_weights = self.attention_model(x)
         dyn = self.dynamic_linear(dyn)
-        stc = self.static_attention(x2)
+        stc, stc_weights = self.static_attention(x2)
         stc = self.static_linear(stc)
         x = self.dynamic_static(stc, dyn, dyn)
         # x = self.dynamic_static(dyn, stc, dyn)
@@ -166,6 +198,6 @@ class VideoImageEEGClassifyColor3(nn.Module):
         clip_out2 = self.clip_head(x_tem)
         cls_result2 = self.class_head(clip_out2)
 
-        return clip_out, cls_result, clip_out2, cls_result2
+        return clip_out, cls_result, clip_out2, cls_result2, dyn_weights, stc_weights
 
     

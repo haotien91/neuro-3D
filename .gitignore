@@ -13,4 +13,6 @@ __pycache__/
 *.txt
 *.png
 
+!analysis_sub*/*
+
 PointGeneration/__pycache__*
